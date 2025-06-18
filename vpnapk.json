@@ -1,6 +1,6 @@
 {
  
- [
+"vpnapp": [
  
  {
    "vpn": "SVPN Connect",
@@ -36,13 +36,5 @@
   "img": "https://res.cloudinary.com/djz6y9jdg/image/upload/v1750268131/truxoayctv39ohaqeiis.png"
   
   }
-  
-
-
-
-
-
 ]
-
-
 }
