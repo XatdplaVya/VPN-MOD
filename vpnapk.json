@@ -4,7 +4,7 @@
  
  {
 
-  "version": "1.0.0",
+  "version": "2.2-namo",
    "vpn": "NAMO VPN",
    "img": "https://res.cloudinary.com/djz6y9jdg/image/upload/v1750323181/nyosynk7ur9zn1hriwju.png",
   "linkapk": "https://www.dropbox.com/scl/fi/21mfodu1os82z2g4agxfl/NAMO-VPN_2.2-namo_apks-1.apk?rlkey=l4omi2a00p9fssjje3t13njkn&st=4ap3x9zu&dl=1",
@@ -18,7 +18,7 @@
 },
 
 {
-  "version": "1.0.1",
+  "version": "1.3",
   "vpn": "Daisy VPN",
   "img": "https://res.cloudinary.com/djz6y9jdg/image/upload/v1750323180/tdqotsmyvuaaknbtjz9v.png",
  "linkapk": "https://www.dropbox.com/scl/fi/50dus7m6jn2yizi9vsjj5/Daisy-VPN-Connect_1.3_apks.apk?rlkey=p4uq3aqc6am2zezcvy9by3t7b&st=ewynknj7&dl=1",
@@ -33,7 +33,7 @@
 
  {
 
-  "version": "1.1.0",
+  "version": "worldvpn-release-65",
    "vpn": "World VPN",
    "img": "https://res.cloudinary.com/djz6y9jdg/image/upload/v1750268131/truxoayctv39ohaqeiis.png",
   "linkapk": "https://www.dropbox.com/scl/fi/zvulck57pimd7739a8b7w/WORLD-VPN-APP_worldvpn-release-65_apks.apk?rlkey=o8a76ah0gckmyimwcdtfeq6uq&st=sbhaklp6&dl=1",
@@ -46,7 +46,7 @@
    
 },
  {
-  "version": "1.2.0",
+  "version": "5.5",
    "vpn": "TIKVPN Premium",
    "img": "https://res.cloudinary.com/djz6y9jdg/image/upload/v1750323180/zd7zpohjr5hsz5ibxycp.png",
   "linkapk": "https://www.dropbox.com/scl/fi/zhg7clwq5dxwhvvvqhjnd/TIKVPN_Premium_5.5_Edit.apk?rlkey=0i7ijpmj1d2ozm1ljb68c6vln&e=1&st=2csjtdv2&dl=1",
@@ -58,9 +58,9 @@
    "info": " M O D "
  },
    {
-  "version": "1.2.0",
+  "version": "4.0",
    "vpn": "RO VPN",
-   "img": "https://res.cloudinary.com/djz6y9jdg/image/upload/v1750323180/zd7zpohjr5hsz5ibxycp.png",
+   "img": "https://raw.githubusercontent.com/XatdplaVya/VPN-MOD/refs/heads/main/ic_launcher_round.png",
   "linkapk": "https://www.dropbox.com/scl/fi/y54mjznxqtg7eiwtuac15/ROVPN-MOD-BY-FLOW.apk?rlkey=opui8eszbt268p8sid8wt7zzj&st=t1veahn5&dl=1",
   "org": "https://play.google.com/store/apps/details?id=com.mobileapp.rovpn",
   "ads": "NO Ads",
