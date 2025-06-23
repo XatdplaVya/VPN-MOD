@@ -3,6 +3,8 @@
 "vpnapp": [
  
  {
+
+  "version": "1.0.0",
    "vpn": "NAMO VPN",
    "img": "https://res.cloudinary.com/djz6y9jdg/image/upload/v1750323181/nyosynk7ur9zn1hriwju.png",
   "linkapk": "https://www.dropbox.com/scl/fi/21mfodu1os82z2g4agxfl/NAMO-VPN_2.2-namo_apks-1.apk?rlkey=l4omi2a00p9fssjje3t13njkn&st=4ap3x9zu&dl=1",
@@ -11,11 +13,12 @@
    "time": "NO TIME REMAINING",
    "msg": "THANKS",
    
-   "des": " I IAM FLOW"
+   "info": " I IAM FLOW"
    
 },
 
 {
+  "version": "1.0.1",
   "vpn": "Daisy VPN",
   "img": "https://res.cloudinary.com/djz6y9jdg/image/upload/v1750323180/tdqotsmyvuaaknbtjz9v.png",
  "linkapk": "https://www.dropbox.com/scl/fi/50dus7m6jn2yizi9vsjj5/Daisy-VPN-Connect_1.3_apks.apk?rlkey=p4uq3aqc6am2zezcvy9by3t7b&st=ewynknj7&dl=1",
@@ -24,11 +27,13 @@
    "time": "NO TIME REMAINING",
    "msg": "THANKS",
    "logo": "https://",
-   "des": " I IAM FLOW"
+   "info": " I IAM FLOW"
   
   },
 
  {
+
+  "version": "1.1.0",
    "vpn": "World VPN",
    "img": "https://res.cloudinary.com/djz6y9jdg/image/upload/v1750268131/truxoayctv39ohaqeiis.png",
   "linkapk": "https://www.dropbox.com/scl/fi/zvulck57pimd7739a8b7w/WORLD-VPN-APP_worldvpn-release-65_apks.apk?rlkey=o8a76ah0gckmyimwcdtfeq6uq&st=sbhaklp6&dl=1",
@@ -37,10 +42,11 @@
    "time": "NO TIME REMAINING",
    "msg": "THANKS",
    "logo": "https://",
-   "des": " I IAM FLOW"
+   "info": " I IAM FLOW"
    
 },
  {
+  "version": "1.2.0",
    "vpn": "TIKVPN Premium",
    "img": "https://res.cloudinary.com/djz6y9jdg/image/upload/v1750323180/zd7zpohjr5hsz5ibxycp.png",
   "linkapk": "https://www.dropbox.com/scl/fi/zhg7clwq5dxwhvvvqhjnd/TIKVPN_Premium_5.5_Edit.apk?rlkey=0i7ijpmj1d2ozm1ljb68c6vln&e=1&st=2csjtdv2&dl=1",
@@ -49,7 +55,7 @@
    "time": "NO TIME REMAINING",
    "msg": "THANKS",
    "logo": "https://",
-   "des": " I IAM FLOW"
+   "info": " I IAM FLOW"
  }
  
 
