@@ -1,14 +1,20 @@
 {
   "lotto":[
 
-  {
+
+   {
+     "api": "https://lotto.api.rayriffy.com/lotto/01082568",
+     "date": " 01 AUGUST 2568 "
+   },
+    
+    {
     "api": "https://lotto.api.rayriffy.com/lotto/16072568",
-    "date":"16072568"
+    "date":"16 JULY 2568"
 
   },
     {
       "api": "https://lotto.api.rayriffy.com/lotto/01072568",
-      "date": "01072568"
+      "date": "01 JULY 2568"
     },
     {
       "api": "https://lotto.api.rayriffy.com/lotto/16062568",
