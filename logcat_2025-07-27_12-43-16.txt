@@ -1,0 +1,1199 @@
+[2025-07-27 12:42:49.163 Uid(value=10109):3786:3806 D/OpenGLRenderer]
+endAllActiveAnimators on 0x70faf12a00 (t) with handle 0x713ba5b1e0
+
+[2025-07-27 12:42:49.263 Uid(value=1000):216:259 W/BroadcastQueue]
+Background execution not allowed: receiving Intent { act=android.intent.action.DROPBOX_ENTRY_ADDED flg=0x10 (has extras) } to com.google.android.gms/.stats.service.DropBoxEntryAddedReceiver
+
+[2025-07-27 12:42:49.300 Uid(value=10109):3786:3845 D/ProfileInstaller]
+Skipping profile installation for com.dp.logcatapp
+
+[2025-07-27 12:42:50.859 Uid(value=1000):216:259 I/ActivityManager]
+Waited long enough for: ServiceRecord{c06dfed u0 com.google.android.gms/.statementservice.OperationService}
+
+[2025-07-27 12:42:50.943 Uid(value=1000):216:331 E/WificondScannerImpl]
+Timed out waiting for scan result from wificond
+
+[2025-07-27 12:42:50.959 Uid(value=10059):1338:1338 I/Finsky]
+[2] yjl.onStartJob(4): SCH: job service start with id 9773.
+
+[2025-07-27 12:42:50.966 Uid(value=10059):1338:3685 I/Finsky]
+[283] yhy.a(66): SCH: Satisfied jobs for 9773 are: 12-1
+
+[2025-07-27 12:42:50.968 Uid(value=10059):1338:3846 I/Finsky]
+[290] xtv.accept(50): SCH: Job 12-1 starting
+
+[2025-07-27 12:42:50.968 Uid(value=1002):50:698 I/bt_vendor]
+bt_vendor_op op 7
+
+[2025-07-27 12:42:50.969 Uid(value=1002):50:698 I/bt_vendor]
+bt_vendor_op op 7 retval 0
+
+[2025-07-27 12:42:50.969 Uid(value=10059):1338:1338 I/Finsky]
+[2] ContentSyncJob.v(3): [ContentSync] job started
+
+[2025-07-27 12:42:51.026 Uid(value=1000):15:15 E/SELinux]
+avc:  granted  { find } for service=telecom pid=379 uid=10097 scontext=u:r:platform_app:s0:c512,c7687689,c256,c512,c768p:s0:c109,c256,c512,c768e tcontext=u:object_r:telecom_service:s0 tclass=service_manager
+
+[2025-07-27 12:42:51.027 Uid(value=1000):15:15 E/SELinux]
+avc:  granted  { find } for service=telecom pid=379 uid=10097 scontext=u:r:platform_app:s0:c512,c7687689,c256,c512,c768p:s0:c109,c256,c512,c768e tcontext=u:object_r:telecom_service:s0 tclass=service_manager
+
+[2025-07-27 12:42:51.035 Uid(value=1000):216:319 V/InputDispatcher]
+Asynchronous input event injection succeeded.
+
+[2025-07-27 12:42:51.055 Uid(value=10048):734:3634 I/NearbyMediums]
+No BLE Fast/GATT advertisements found in the latest cycle.
+
+[2025-07-27 12:42:51.101 Uid(value=1000):216:319 V/InputDispatcher]
+Asynchronous input event injection succeeded.
+
+[2025-07-27 12:42:51.107 Uid(value=1000):15:15 E/SELinux]
+avc:  granted  { find } for service=dreams pid=216 uid=1000 scontext=u:r:system_server:s0c512,c7687689,c256,c512,c768p:s0:c109,c256,c512,c768e tcontext=u:object_r:dreams_service:s0 tclass=service_manager
+
+[2025-07-27 12:42:51.109 Uid(value=10097):379:379 V/StatusBar]
+mStatusBarWindow: com.android.systemui.statusbar.phone.StatusBarWindowView{aa519bc V.E...... ........ 0,0-1080,72} canPanelBeCollapsed(): false
+
+[2025-07-27 12:42:51.110 Uid(value=1000):216:251 I/ActivityTaskManager]
+START u0 {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10000100 cmp=com.android.launcher3/.Launcher (has extras)} from uid 0
+
+[2025-07-27 12:42:51.176 Uid(value=10059):1338:3848 I/Finsky]
+[292] jno.h(1): Completed 0 account content syncs with 0 successful.
+
+[2025-07-27 12:42:51.176 Uid(value=10059):1338:1338 I/Finsky]
+[2] ContentSyncJob.a(1): [ContentSync] Installation state replication succeeded.
+
+[2025-07-27 12:42:51.177 Uid(value=10059):1338:1338 I/Finsky]
+[2] yhz.r(4): SCH: jobFinished: 12-1. TimeElapsed: 208ms.
+
+[2025-07-27 12:42:51.180 Uid(value=1000):15:15 E/SELinux]
+avc:  granted  { find } for service=autofill pid=3786 uid=10109 scontext=u:r:untrusted_app:s0:c109,c256,c512,c768p:s0:c109,c256,c512,c768e tcontext=u:object_r:autofill_service:s0 tclass=service_manager
+
+[2025-07-27 12:42:51.193 Uid(value=10048):995:995 D/BoundBrokerSvc]
+onUnbind: Intent { act=com.google.android.gms.feedback.internal.IFeedbackService dat=chimera-action: cmp=com.google.android.gms/.chimera.GmsBoundBrokerService }
+
+[2025-07-27 12:42:51.206 Uid(value=10059):1338:1485 I/Finsky]
+[164] xtu.accept(57): SCH: Scheduling phonesky job Id: 1-1337, CT: 1753594779963, Constraints: [{ L: 16724620, D: 59924620, C: 1, I: 1, N: 1 }]
+
+[2025-07-27 12:42:51.206 Uid(value=10059):1338:1485 I/Finsky]
+[164] xtu.accept(57): SCH: Scheduling phonesky job Id: 10-26, CT: 1753594779640, Constraints: [{ L: 600000, D: 86400000, C: 1, I: 1, N: 1 }]
+
+[2025-07-27 12:42:51.206 Uid(value=10059):1338:1485 I/Finsky]
+[164] xtu.accept(57): SCH: Scheduling phonesky job Id: 10-93, CT: 1753594779642, Constraints: [{ L: 300000, D: 86400000, C: 1, I: 1, N: 1 }]
+
+[2025-07-27 12:42:51.207 Uid(value=10059):1338:1485 I/Finsky]
+[164] xtu.accept(57): SCH: Scheduling phonesky job Id: 34-11, CT: 1753594900986, Constraints: [{ L: 79199865, D: 1375199865, C: 1, I: 1, N: 1 }]
+
+[2025-07-27 12:42:51.207 Uid(value=10059):1338:1485 I/Finsky]
+[164] xtu.accept(57): SCH: Scheduling phonesky job Id: 34-13, CT: 1753594908908, Constraints: [{ L: 604800000, D: 2591994300, C: 1, I: 1, N: 1 }]
+
+[2025-07-27 12:42:51.220 Uid(value=10059):1338:1482 I/Finsky]
+[163] xtt.apply(46): SCH: Scheduling 1 system job(s)
+
+[2025-07-27 12:42:51.222 Uid(value=10059):1338:1482 I/Finsky]
+[163] yhw.d(4): SCH: Scheduling system job Id: 9782, L: 108421, D: 59733362, C: false, I: false, N: 1
+
+[2025-07-27 12:42:51.235 Uid(value=10059):1338:3846 I/Finsky]
+[290] yjl.a(16): SCH: job service finished with id 9773.
+
+[2025-07-27 12:42:51.238 Uid(value=10094):611:651 W/System]
+A resource failed to call release. 
+
+[2025-07-27 12:42:51.238 Uid(value=10094):611:651 W/System]
+A resource failed to call release. 
+
+[2025-07-27 12:42:51.526 Uid(value=root):43:247 E/TrafficController]
+Failed to delete the counterSet: Bad file descriptor
+
+[2025-07-27 12:42:51.529 Uid(value=1000):216:2903 I/ActivityManager]
+Killing 3751:com.android.packageinstaller/u0a56 (adj 915): empty #2
+
+[2025-07-27 12:42:51.529 Uid(value=1000):216:2903 W/System.err]
+java.lang.Exception
+
+[2025-07-27 12:42:51.529 Uid(value=1000):216:2903 W/System.err]
+	at com.android.server.am.ProcessRecord.kill(ProcessRecord.java:773)
+
+[2025-07-27 12:42:51.529 Uid(value=1000):216:2903 W/System.err]
+	at com.android.server.am.OomAdjuster.updateOomAdjLocked(OomAdjuster.java:482)
+
+[2025-07-27 12:42:51.529 Uid(value=1000):216:2903 W/System.err]
+	at com.android.server.am.OomAdjuster.updateOomAdjLocked(OomAdjuster.java:228)
+
+[2025-07-27 12:42:51.529 Uid(value=1000):216:2903 W/System.err]
+	at com.android.server.am.ActivityManagerService.updateOomAdjLocked(ActivityManagerService.java:16762)
+
+[2025-07-27 12:42:51.530 Uid(value=1000):216:2903 W/System.err]
+	at com.android.server.am.ActiveServices.serviceDoneExecutingLocked(ActiveServices.java:3304)
+
+[2025-07-27 12:42:51.530 Uid(value=1000):216:2903 W/System.err]
+	at com.android.server.am.ActiveServices.serviceDoneExecutingLocked(ActiveServices.java:3251)
+
+[2025-07-27 12:42:51.530 Uid(value=1000):216:2903 W/System.err]
+	at com.android.server.am.ActivityManagerService.serviceDoneExecuting(ActivityManagerService.java:14124)
+
+[2025-07-27 12:42:51.530 Uid(value=1000):216:2903 W/System.err]
+	at android.app.IActivityManager$Stub.onTransact(IActivityManager.java:2599)
+
+[2025-07-27 12:42:51.530 Uid(value=1000):216:2903 W/System.err]
+	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2741)
+
+[2025-07-27 12:42:51.530 Uid(value=1000):216:2903 W/System.err]
+	at android.os.Binder.execTransactInternal(Binder.java:1021)
+
+[2025-07-27 12:42:51.530 Uid(value=1000):216:2903 W/System.err]
+	at android.os.Binder.execTransact(Binder.java:994)
+
+[2025-07-27 12:42:51.533 Uid(value=1000):216:261 W/libprocessgroup]
+Failed to open process cgroup uid 10056 pid 3751: Permission denied
+
+[2025-07-27 12:42:51.534 Uid(value=1000):216:261 E/libprocessgroup]
+Error encountered killing process cgroup uid 10056 pid 3751: Permission denied
+
+[2025-07-27 12:42:51.534 Uid(value=root):44:44 I/Zygote]
+Process 3751 exited due to signal 9 (Killed)
+
+[2025-07-27 12:42:51.535 Uid(value=1000):15:15 E/SELinux]
+avc:  granted  { find } for service=activity pid=82 uid=1041 scontext=u:object_r:audioserver_exec:s0,c512,c768p:s0:c109,c256,c512,c768e tcontext=u:object_r:activity_service:s0 tclass=service_manager
+
+[2025-07-27 12:42:51.669 Uid(value=1000):216:3579 E/libEGL]
+Driver indicates EGL 1.5 support, but does not have a critical API
+
+[2025-07-27 12:42:51.672 Uid(value=1000):216:3579 E/egl-titan]
+eglGetProcAddress: procname=glInvalidateBufferData, native_address=0x0, address=0x0 not found!
+
+[2025-07-27 12:42:51.673 Uid(value=1000):216:3579 E/egl-titan]
+eglGetProcAddress: procname=glInvalidateBufferSubData, native_address=0x0, address=0x0 not found!
+
+[2025-07-27 12:42:51.673 Uid(value=1000):216:3579 E/egl-titan]
+eglGetProcAddress: procname=glInvalidateTexImage, native_address=0x0, address=0x0 not found!
+
+[2025-07-27 12:42:51.673 Uid(value=1000):216:3579 E/egl-titan]
+eglGetProcAddress: procname=glInvalidateTexSubImage, native_address=0x0, address=0x0 not found!
+
+[2025-07-27 12:42:52.461 Uid(value=1000):216:2903 I/ActivityManager]
+Killing 3610:com.google.process.gservices/u0a48 (adj 925): empty #2
+
+[2025-07-27 12:42:52.461 Uid(value=1000):216:2903 W/System.err]
+java.lang.Exception
+
+[2025-07-27 12:42:52.462 Uid(value=1000):216:2903 W/System.err]
+	at com.android.server.am.ProcessRecord.kill(ProcessRecord.java:773)
+
+[2025-07-27 12:42:52.462 Uid(value=1000):216:2903 W/System.err]
+	at com.android.server.am.OomAdjuster.updateOomAdjLocked(OomAdjuster.java:482)
+
+[2025-07-27 12:42:52.462 Uid(value=1000):216:2903 W/System.err]
+	at com.android.server.am.ActivityManagerService.updateOomAdjLocked(ActivityManagerService.java:16960)
+
+[2025-07-27 12:42:52.463 Uid(value=1000):216:2903 W/System.err]
+	at com.android.server.am.ActiveServices.realStartServiceLocked(ActiveServices.java:2676)
+
+[2025-07-27 12:42:52.463 Uid(value=1000):216:2903 W/System.err]
+	at com.android.server.am.ActiveServices.bringUpServiceLocked(ActiveServices.java:2573)
+
+[2025-07-27 12:42:52.463 Uid(value=1000):216:2903 W/System.err]
+	at com.android.server.am.ActiveServices.startServiceInnerLocked(ActiveServices.java:701)
+
+[2025-07-27 12:42:52.463 Uid(value=1000):216:2903 W/System.err]
+	at com.android.server.am.ActiveServices.startServiceLocked(ActiveServices.java:640)
+
+[2025-07-27 12:42:52.463 Uid(value=1000):216:2903 W/System.err]
+	at com.android.server.am.ActivityManagerService$LocalService.startServiceInPackage(ActivityManagerService.java:18254)
+
+[2025-07-27 12:42:52.463 Uid(value=1000):216:2903 W/System.err]
+	at com.android.server.am.PendingIntentRecord.sendInner(PendingIntentRecord.java:448)
+
+[2025-07-27 12:42:52.463 Uid(value=1000):216:2903 W/System.err]
+	at com.android.server.am.PendingIntentRecord.sendWithResult(PendingIntentRecord.java:276)
+
+[2025-07-27 12:42:52.463 Uid(value=1000):216:2903 W/System.err]
+	at com.android.server.am.ActivityManagerService.sendIntentSender(ActivityManagerService.java:5436)
+
+[2025-07-27 12:42:52.464 Uid(value=1000):216:2903 W/System.err]
+	at android.app.IActivityManager$Stub.onTransact(IActivityManager.java:4334)
+
+[2025-07-27 12:42:52.464 Uid(value=1000):216:2903 W/System.err]
+	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2741)
+
+[2025-07-27 12:42:52.464 Uid(value=1000):216:2903 W/System.err]
+	at android.os.Binder.execTransactInternal(Binder.java:1021)
+
+[2025-07-27 12:42:52.464 Uid(value=1000):216:2903 W/System.err]
+	at android.os.Binder.execTransact(Binder.java:994)
+
+[2025-07-27 12:42:52.465 Uid(value=1000):216:261 W/libprocessgroup]
+Failed to open process cgroup uid 10048 pid 3610: Permission denied
+
+[2025-07-27 12:42:52.466 Uid(value=1000):216:261 E/libprocessgroup]
+Error encountered killing process cgroup uid 10048 pid 3610: Permission denied
+
+[2025-07-27 12:42:52.468 Uid(value=root):44:44 I/Zygote]
+Process 3610 exited due to signal 9 (Killed)
+
+[2025-07-27 12:42:52.470 Uid(value=1000):216:1860 W/ActivityManager]
+Appop Denial: Accessing service com.google.android.gms/com.google.android.location.internal.server.GoogleLocationService from pid=734, uid=10048 requires appop COARSE_LOCATION
+
+[2025-07-27 12:42:52.473 Uid(value=10048):734:1260 E/NlpRequestHelper]
+failed to send request to NLP
+
+[2025-07-27 12:42:52.645 Uid(value=1000):216:2942 I/ActivityTaskManager]
+START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.aadil.aadilmods/.activities.LoginActivity bnds=[41,258][241,601]} from uid 10094
+
+[2025-07-27 12:42:52.664 Uid(value=1000):216:254 E/system_server]
+Invalid ID 0x00000000.
+
+[2025-07-27 12:42:52.676 Uid(value=1000):15:15 E/SELinux]
+avc:  granted  { find } for service=activity pid=82 uid=1041 scontext=u:object_r:audioserver_exec:s0,c512,c768p:s0:c109,c256,c512,c768e tcontext=u:object_r:activity_service:s0 tclass=service_manager
+
+[2025-07-27 12:42:52.686 Uid(value=root):44:44 D/Zygote]
+Forked child process 3852
+
+[2025-07-27 12:42:52.694 Uid(value=1000):216:260 I/ActivityManager]
+Start proc 3852:com.aadil.aadilmods/u0a111 for activity {com.aadil.aadilmods/com.aadil.aadilmods.activities.LoginActivity}
+
+[2025-07-27 12:42:52.700 Uid(value=10111):3852:3852 E/aadil.aadilmod]
+Not starting debugger since process cannot load the jdwp agent.
+
+[2025-07-27 12:42:52.705 Uid(value=1000):15:15 E/SELinux]
+avc:  granted  { find } for service=activity pid=3852 uid=10111 scontext=u:r:untrusted_app:s0:c111,c256,c512,c768p:s0:c109,c256,c512,c768e tcontext=u:object_r:activity_service:s0 tclass=service_manager
+
+[2025-07-27 12:42:52.724 Uid(value=root):43:247 E/TrafficController]
+Failed to set the counterSet: Bad file descriptor, fd: -1
+
+[2025-07-27 12:42:52.754 Uid(value=10111):3852:3852 I/FirebaseApp]
+Device unlocked: initializing all Firebase APIs for app [DEFAULT]
+
+[2025-07-27 12:42:52.775 Uid(value=1000):15:15 E/SELinux]
+avc:  granted  { find } for service=ashmem_device_service pid=3852 uid=10111 scontext=u:r:untrusted_app:s0:c111,c256,c512,c768e tcontext=u:object_r:ashmem_device_service:s0 tclass=service_manager
+
+[2025-07-27 12:42:52.800 Uid(value=10111):3852:3852 W/Glide]
+Failed to find GeneratedAppGlideModule. You should include an annotationProcessor compile dependency on com.github.bumptech.glide:compiler in your application and a @GlideModule annotated AppGlideModule implementation or LibraryGlideModules will be silently ignored
+
+[2025-07-27 12:42:52.812 Uid(value=10111):3852:3885 I/FIAM.Headless]
+Starting InAppMessaging runtime with Installation ID dpsHGmJEQz2mp9oyTAAhmJ
+
+[2025-07-27 12:42:52.816 Uid(value=1000):216:2941 D/ConnectivityService]
+requestNetwork for uid/pid:10111/3852 NetworkRequest [ TRACK_DEFAULT id=40, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Uid: 10111] ]
+
+[2025-07-27 12:42:52.817 Uid(value=radio):530:530 D/PhoneSwitcherNetworkRequstListener]
+got request NetworkRequest [ TRACK_DEFAULT id=40, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Uid: 10111] ] with score 50 and serial 2
+
+[2025-07-27 12:42:52.817 Uid(value=1000):15:15 E/SELinux]
+avc:  granted  { find } for service=telephony.registry pid=530 uid=1001 scontext=u:r:radio:s0untrusted_app:s0:c111,c256,c512,c768e tcontext=u:object_r:registry_service:s0 tclass=service_manager
+
+[2025-07-27 12:42:52.818 Uid(value=1000):216:329 D/UntrustedWifiNetworkFactory]
+got request NetworkRequest [ TRACK_DEFAULT id=40, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Uid: 10111] ] with score 50 and serial 2
+
+[2025-07-27 12:42:52.818 Uid(value=1000):216:329 D/WifiNetworkFactory]
+got request NetworkRequest [ TRACK_DEFAULT id=40, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Uid: 10111] ] with score 50 and serial 2
+
+[2025-07-27 12:42:52.819 Uid(value=10111):3852:3852 I/FirebaseInitProvider]
+FirebaseApp initialization successful
+
+[2025-07-27 12:42:52.821 Uid(value=10111):3852:3886 D/NetworkSecurityConfig]
+No Network Security Config specified, using platform default
+
+[2025-07-27 12:42:52.824 Uid(value=1000):15:15 E/SELinux]
+avc:  granted  { find } for service=isub pid=379 uid=10097 scontext=u:r:platform_app:s0:c512,c768adio:s0untrusted_app:s0:c111,c256,c512,c768e tcontext=u:object_r:radio_service:s0 tclass=service_manager
+
+[2025-07-27 12:42:52.827 Uid(value=1000):15:15 E/SELinux]
+avc:  granted  { find } for service=SurfaceFlinger pid=3852 uid=10111 scontext=u:r:untrusted_app:s0:c111,c256,c512,c7681,c256,c512,c768e tcontext=u:object_r:surfaceflinger_service:s0 tclass=service_manager
+
+[2025-07-27 12:42:52.828 Uid(value=1000):15:15 E/SELinux]
+avc:  granted  { find } for service=isub pid=379 uid=10097 scontext=u:r:platform_app:s0:c512,c768_app:s0:c111,c256,c512,c7681,c256,c512,c768e tcontext=u:object_r:radio_service:s0 tclass=service_manager
+
+[2025-07-27 12:42:52.840 Uid(value=root):43:1197 E/BandwidthController]
+unable to update the Bandwidth Uid Map: Status[code: 9, msg: "[Bad file descriptor] : write to map -1 failed"]
+
+[2025-07-27 12:42:52.841 Uid(value=root):43:1197 I/netd]
+bandwidthAddNiceApp(10048) -> ServiceSpecificException(-9, "Unknown error -9") <0.25ms>
+
+[2025-07-27 12:42:52.841 Uid(value=1002):50:57 I/bt_vendor]
+bt_vendor_op op 7
+
+[2025-07-27 12:42:52.842 Uid(value=1002):50:57 I/bt_vendor]
+bt_vendor_op op 7 retval 0
+
+[2025-07-27 12:42:52.843 Uid(value=1000):216:327 E/NetworkPolicy]
+problem setting whitelist (true) rules for 10048
+java.lang.IllegalStateException: android.os.ServiceSpecificException: Unknown error -9 (code -9)
+	at com.android.server.NetworkManagementService.setUidOnMeteredNetworkList(NetworkManagementService.java:1402)
+	at com.android.server.NetworkManagementService.setUidMeteredNetworkWhitelist(NetworkManagementService.java:1416)
+	at com.android.server.net.NetworkPolicyManagerService.setMeteredNetworkWhitelist(NetworkPolicyManagerService.java:4695)
+	at com.android.server.net.NetworkPolicyManagerService.updateRulesForDataUsageRestrictionsULInner(NetworkPolicyManagerService.java:4240)
+	at com.android.server.net.NetworkPolicyManagerService.updateRulesForDataUsageRestrictionsUL(NetworkPolicyManagerService.java:4143)
+	at com.android.server.net.NetworkPolicyManagerService.updateRestrictBackgroundRulesOnUidStatusChangedUL(NetworkPolicyManagerService.java:3627)
+	at com.android.server.net.NetworkPolicyManagerService.updateUidStateUL(NetworkPolicyManagerService.java:3565)
+	at com.android.server.net.NetworkPolicyManagerService.handleUidChanged(NetworkPolicyManagerService.java:4605)
+	at com.android.server.net.NetworkPolicyManagerService$18.handleMessage(NetworkPolicyManagerService.java:4581)
+	at android.os.Handler.dispatchMessage(Handler.java:103)
+	at android.os.Looper.loop(Looper.java:214)
+	at android.os.HandlerThread.run(HandlerThread.java:67)
+	at com.android.server.ServiceThread.run(ServiceThread.java:44)
+Caused by: android.os.ServiceSpecificException: Unknown error -9 (code -9)
+	at android.os.Parcel.createException(Parcel.java:2085)
+	at android.os.Parcel.readException(Parcel.java:2039)
+	at android.os.Parcel.readException(Parcel.java:1987)
+	at android.net.INetd$Stub$Proxy.bandwidthAddNiceApp(INetd.java:2639)
+	at com.android.server.NetworkManagementService.setUidOnMeteredNetworkList(NetworkManagementService.java:1389)
+	... 12 more
+
+[2025-07-27 12:42:52.844 Uid(value=1000):15:15 E/SELinux]
+avc:  granted  { find } for service=activity_task pid=3852 uid=10111 scontext=u:r:untrusted_app:s0:c111,c256,c512,c7681,c256,c512,c768e tcontext=u:object_r:activity_task_service:s0 tclass=service_manager
+
+[2025-07-27 12:42:52.844 Uid(value=1000):15:15 E/SELinux]
+avc:  granted  { find } for service=dropbox pid=216 uid=1000 scontext=u:r:system_server:s0o tcontext=u:object_r:dropbox_service:s0 tclass=service_manager
+
+[2025-07-27 12:42:52.845 Uid(value=1000):216:327 I/DropBoxManagerService]
+add tag=system_server_wtf isTagEnabled=true flags=0x2
+
+[2025-07-27 12:42:52.854 Uid(value=root):43:247 E/TrafficController]
+Failed to set the counterSet: Bad file descriptor, fd: -1
+
+[2025-07-27 12:42:52.856 Uid(value=10111):3852:3852 D/AppCompatDelegate]
+Checking for metadata for AppLocalesMetadataHolderService : Service not found
+
+[2025-07-27 12:42:52.919 Uid(value=10048):995:995 D/BoundBrokerSvc]
+onBind: Intent { act=com.google.android.gms.auth.api.signin.service.START pkg=com.google.android.gms }
+
+[2025-07-27 12:42:52.920 Uid(value=10048):995:995 D/BoundBrokerSvc]
+Loading bound service for intent: Intent { act=com.google.android.gms.auth.api.signin.service.START pkg=com.google.android.gms }
+
+[2025-07-27 12:42:52.935 Uid(value=1000):216:2940 I/ActivityTaskManager]
+START u0 {cmp=com.aadil.aadilmods/.activities.MainActivity (has extras)} from uid 10111
+
+[2025-07-27 12:42:52.951 Uid(value=wifi):123:123 W/wificond]
+Copy constructor is only used for unit tests
+
+[2025-07-27 12:42:52.951 Uid(value=wifi):123:123 W/wificond]
+Failed to get NL80211_ATTR_EXT_FEATURES
+
+[2025-07-27 12:42:52.951 Uid(value=wifi):123:123 W/wificond]
+Copy constructor is only used for unit tests
+
+[2025-07-27 12:42:52.951 Uid(value=wifi):123:123 W/wificond]
+Failed to get NL80211_ATTR_EXT_FEATURES
+
+[2025-07-27 12:42:52.952 Uid(value=wifi):123:123 W/wificond]
+Copy constructor is only used for unit tests
+
+[2025-07-27 12:42:52.952 Uid(value=wifi):123:123 W/wificond]
+Failed to get NL80211_ATTR_EXT_FEATURES
+
+[2025-07-27 12:42:52.952 Uid(value=wifi):123:123 W/wificond]
+Scan already started
+
+[2025-07-27 12:42:52.973 Uid(value=10111):3852:3852 W/ActivityThread]
+handleWindowVisibility: no activity for token android.os.BinderProxy@c207f5
+
+[2025-07-27 12:42:52.985 Uid(value=10048):995:2704 W/Auth.Api.SignIn]
+[Service,SignInChimeraService] **************************** WARNING ***************************
+You are using the deprecated legacy Google Sign-In APIs from
+play-services-auth SDK. Please migrate to the Credential Manager
+APIs, see https://goo.gle/gsi-migration.
+****************************************************************
+
+[2025-07-27 12:42:52.991 Uid(value=10048):734:3906 W/PhBaseOp]
+Phenotype API error. Event: # gbrc@14133bee, EventCode: COMMIT_CONFIG [CONTEXT service_id=51 ]
+dhlj: 29537: Stale snapshot for com.google.android.gms.signin(new configuration available)
+	at dhni.d(:com.google.android.gms@252635013@25.26.35 (100400-783060121):480)
+	at dhni.b(:com.google.android.gms@252635013@25.26.35 (100400-783060121):43)
+	at dhnh.i(:com.google.android.gms@252635013@25.26.35 (100400-783060121):3)
+	at dhnd.h(:com.google.android.gms@252635013@25.26.35 (100400-783060121):35)
+	at dhnd.f(:com.google.android.gms@252635013@25.26.35 (100400-783060121):17)
+	at cfql.fJ(:com.google.android.gms@252635013@25.26.35 (100400-783060121):1)
+	at cfqp.run(:com.google.android.gms@252635013@25.26.35 (100400-783060121):128)
+	at exnf.run(:com.google.android.gms@252635013@25.26.35 (100400-783060121):21)
+	at aytm.c(:com.google.android.gms@252635013@25.26.35 (100400-783060121):50)
+	at aytm.run(:com.google.android.gms@252635013@25.26.35 (100400-783060121):70)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+	at ayze.run(:com.google.android.gms@252635013@25.26.35 (100400-783060121):8)
+	at java.lang.Thread.run(Thread.java:919)
+
+[2025-07-27 12:42:52.991 Uid(value=10048):734:3906 W/AsyncOperation]
+operation=CommitToConfigurationOperationCall, opStatusCode=29537 [CONTEXT service_id=51 ]
+OperationException[Status{statusCode=Stale snapshot for com.google.android.gms.signin(new configuration available), resolution=null}]
+	at dhnd.h(:com.google.android.gms@252635013@25.26.35 (100400-783060121):65)
+	at dhnd.f(:com.google.android.gms@252635013@25.26.35 (100400-783060121):17)
+	at cfql.fJ(:com.google.android.gms@252635013@25.26.35 (100400-783060121):1)
+	at cfqp.run(:com.google.android.gms@252635013@25.26.35 (100400-783060121):128)
+	at exnf.run(:com.google.android.gms@252635013@25.26.35 (100400-783060121):21)
+	at aytm.c(:com.google.android.gms@252635013@25.26.35 (100400-783060121):50)
+	at aytm.run(:com.google.android.gms@252635013@25.26.35 (100400-783060121):70)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+	at ayze.run(:com.google.android.gms@252635013@25.26.35 (100400-783060121):8)
+	at java.lang.Thread.run(Thread.java:919)
+
+[2025-07-27 12:42:53.059 Uid(value=10111):3852:3898 D/libEGL]
+loaded /vendor/lib64/egl/libEGL_adreno.so
+
+[2025-07-27 12:42:53.064 Uid(value=root):43:247 E/TrafficController]
+Failed to get current configuration: Bad file descriptor, fd: -1
+
+[2025-07-27 12:42:53.064 Uid(value=10111):3852:3898 E/egl-titan]
+eglGetProcAddress: procname=eglCreateImage, native_address=0x0, address=0x0 not found!
+
+[2025-07-27 12:42:53.064 Uid(value=10111):3852:3898 E/egl-titan]
+eglGetProcAddress: procname=eglDestroyImage, native_address=0x0, address=0x0 not found!
+
+[2025-07-27 12:42:53.065 Uid(value=10111):3852:3898 E/egl-titan]
+eglGetProcAddress: procname=eglGetPlatformDisplay, native_address=0x0, address=0x0 not found!
+
+[2025-07-27 12:42:53.065 Uid(value=10111):3852:3898 E/egl-titan]
+eglGetProcAddress: procname=eglCreatePlatformWindowSurface, native_address=0x0, address=0x0 not found!
+
+[2025-07-27 12:42:53.065 Uid(value=10111):3852:3898 E/egl-titan]
+eglGetProcAddress: procname=eglCreatePlatformPixmapSurface, native_address=0x0, address=0x0 not found!
+
+[2025-07-27 12:42:53.065 Uid(value=10111):3852:3898 E/egl-titan]
+eglGetProcAddress: procname=eglCreateSync, native_address=0x0, address=0x0 not found!
+
+[2025-07-27 12:42:53.065 Uid(value=10111):3852:3898 E/egl-titan]
+eglGetProcAddress: procname=eglDestroySync, native_address=0x0, address=0x0 not found!
+
+[2025-07-27 12:42:53.065 Uid(value=10111):3852:3898 E/egl-titan]
+eglGetProcAddress: procname=eglClientWaitSync, native_address=0x0, address=0x0 not found!
+
+[2025-07-27 12:42:53.065 Uid(value=10111):3852:3898 E/egl-titan]
+eglGetProcAddress: procname=eglGetSyncAttrib, native_address=0x0, address=0x0 not found!
+
+[2025-07-27 12:42:53.065 Uid(value=10111):3852:3898 E/egl-titan]
+eglGetProcAddress: procname=eglWaitSync, native_address=0x0, address=0x0 not found!
+
+[2025-07-27 12:42:53.065 Uid(value=10111):3852:3898 E/egl-titan]
+eglGetProcAddress: procname=eglCreatePlatformWindowSurfaceEXT, native_address=0x0, address=0x0 not found!
+
+[2025-07-27 12:42:53.065 Uid(value=10111):3852:3898 E/egl-titan]
+eglGetProcAddress: procname=eglCreatePlatformPixmapSurfaceEXT, native_address=0x0, address=0x0 not found!
+
+[2025-07-27 12:42:53.065 Uid(value=10111):3852:3898 E/egl-titan]
+eglGetProcAddress: procname=eglSetSwapRectangleANDROID, native_address=0x0, address=0x0 not found!
+
+[2025-07-27 12:42:53.065 Uid(value=10111):3852:3898 E/egl-titan]
+eglGetProcAddress: procname=eglGetRenderBufferANDROID, native_address=0x0, address=0x0 not found!
+
+[2025-07-27 12:42:53.065 Uid(value=10111):3852:3898 E/egl-titan]
+eglGetProcAddress: procname=eglGetNativeClientBufferANDROID, native_address=0x0, address=0x0 not found!
+
+[2025-07-27 12:42:53.065 Uid(value=10111):3852:3898 E/egl-titan]
+eglGetProcAddress: procname=eglHibernateProcessIMG, native_address=0x0, address=0x0 not found!
+
+[2025-07-27 12:42:53.065 Uid(value=10111):3852:3898 E/egl-titan]
+eglGetProcAddress: procname=eglAwakenProcessIMG, native_address=0x0, address=0x0 not found!
+
+[2025-07-27 12:42:53.066 Uid(value=10111):3852:3898 D/libEGL]
+loaded /vendor/lib64/egl/libGLESv1_CM_adreno.so
+
+[2025-07-27 12:42:53.067 Uid(value=10111):3852:3898 D/libEGL]
+loaded /vendor/lib64/egl/libGLESv2_adreno.so
+
+[2025-07-27 12:42:53.072 Uid(value=1000):15:15 E/SELinux]
+avc:  granted  { find } for service=gpu pid=3852 uid=10111 scontext=u:r:untrusted_app:s0:c111,c256,c512,c768p:s0:c111,c256,c512,c768 tcontext=u:object_r:gpu_service:s0 tclass=service_manager
+
+[2025-07-27 12:42:53.108 Uid(value=10111):3852:3852 W/aadil.aadilmod]
+Accessing hidden method Landroid/view/WindowInsets$Type;->ime()I (blacklist, linking, denied)
+
+[2025-07-27 12:42:53.109 Uid(value=10111):3852:3852 W/aadil.aadilmod]
+Accessing hidden method Landroid/view/WindowInsetsAnimationController;->getTypes()I (blacklist, linking, denied)
+
+[2025-07-27 12:42:53.109 Uid(value=10111):3852:3852 W/aadil.aadilmod]
+Accessing hidden method Landroid/view/WindowInsetsAnimationController;->getShownStateInsets()Landroid/graphics/Insets; (blacklist, linking, denied)
+
+[2025-07-27 12:42:53.111 Uid(value=10111):3852:3852 W/aadil.aadilmod]
+Accessing hidden method Landroid/view/WindowInsets$Builder;->setInsets(ILandroid/graphics/Insets;)Landroid/view/WindowInsets$Builder; (blacklist, linking, denied)
+
+[2025-07-27 12:42:53.111 Uid(value=10111):3852:3852 W/aadil.aadilmod]
+Accessing hidden method Landroid/view/WindowInsets$Builder;->setVisible(IZ)Landroid/view/WindowInsets$Builder; (blacklist, linking, denied)
+
+[2025-07-27 12:42:53.112 Uid(value=10111):3852:3852 W/aadil.aadilmod]
+Accessing hidden method Landroid/view/View;->getWindowInsetsController()Landroid/view/WindowInsetsController; (blacklist, linking, denied)
+
+[2025-07-27 12:42:53.112 Uid(value=10111):3852:3852 W/aadil.aadilmod]
+Accessing hidden method Landroid/view/Window;->getInsetsController()Landroid/view/WindowInsetsController; (blacklist, linking, denied)
+
+[2025-07-27 12:42:53.113 Uid(value=10111):3852:3852 W/aadil.aadilmod]
+Accessing hidden method Landroid/view/WindowInsetsController;->show(I)V (blacklist, linking, denied)
+
+[2025-07-27 12:42:53.113 Uid(value=10111):3852:3852 W/aadil.aadilmod]
+Accessing hidden method Landroid/view/WindowInsets;->isVisible(I)Z (blacklist, linking, denied)
+
+[2025-07-27 12:42:53.113 Uid(value=10111):3852:3852 W/aadil.aadilmod]
+Accessing hidden method Landroid/view/WindowInsets;->getInsets(I)Landroid/graphics/Insets; (blacklist, linking, denied)
+
+[2025-07-27 12:42:53.114 Uid(value=10111):3852:3852 W/aadil.aadilmod]
+Accessing hidden method Landroid/view/WindowInsetsAnimationController;->getCurrentInsets()Landroid/graphics/Insets; (blacklist, linking, denied)
+
+[2025-07-27 12:42:53.114 Uid(value=10111):3852:3852 W/aadil.aadilmod]
+Accessing hidden method Landroid/view/WindowInsetsController;->hide(I)V (blacklist, linking, denied)
+
+[2025-07-27 12:42:53.114 Uid(value=10111):3852:3852 W/aadil.aadilmod]
+Accessing hidden method Landroid/view/WindowInsetsAnimationController;->getHiddenStateInsets()Landroid/graphics/Insets; (blacklist, linking, denied)
+
+[2025-07-27 12:42:53.115 Uid(value=10111):3852:3852 W/aadil.aadilmod]
+Accessing hidden method Landroid/view/WindowInsets$Type;->systemGestures()I (blacklist, linking, denied)
+
+[2025-07-27 12:42:53.115 Uid(value=10111):3852:3852 W/aadil.aadilmod]
+Accessing hidden method Landroid/view/WindowInsets$Type;->mandatorySystemGestures()I (blacklist, linking, denied)
+
+[2025-07-27 12:42:53.115 Uid(value=10111):3852:3852 W/aadil.aadilmod]
+Accessing hidden method Landroid/view/WindowInsets$Type;->tappableElement()I (blacklist, linking, denied)
+
+[2025-07-27 12:42:53.196 Uid(value=1000):15:15 E/SELinux]
+avc:  granted  { find } for service=autofill pid=3852 uid=10111 scontext=u:r:untrusted_app:s0:c111,c256,c512,c768512,c768 tcontext=u:object_r:autofill_service:s0 tclass=service_manager
+
+[2025-07-27 12:42:53.275 Uid(value=10111):3852:3852 I/FIAM.Headless]
+went foreground
+
+[2025-07-27 12:42:53.276 Uid(value=10111):3852:3852 I/FIAM.Display]
+Binding to activity: activities.MainActivity
+
+[2025-07-27 12:42:53.276 Uid(value=10111):3852:3852 I/FIAM.Headless]
+Setting display event component
+
+[2025-07-27 12:42:53.285 Uid(value=10111):3852:3880 I/FIAM.Headless]
+Forcing fetch from service rather than cache. Test Device: false | App Fresh Install: true
+
+[2025-07-27 12:42:53.286 Uid(value=10111):3852:3880 I/FIAM.Headless]
+Recoverable exception while reading cache: /data/user/0/com.aadil.aadilmods/files/fiam_impressions_store_file: open failed: ENOENT (No such file or directory)
+
+[2025-07-27 12:42:53.296 Uid(value=1000):216:258 E/memtrack]
+Couldn't load memtrack module
+
+[2025-07-27 12:42:53.296 Uid(value=1000):216:258 W/android.os.Debug]
+failed to get memory consumption info: -1
+
+[2025-07-27 12:42:53.331 Uid(value=10111):3852:3895 E/libEGL]
+Driver indicates EGL 1.5 support, but does not have a critical API
+
+[2025-07-27 12:42:53.332 Uid(value=1000):16:16 E/SELinux]
+avc:  granted  { find } for interface=android.hardware.configstore::ISurfaceFlingerConfigs sid=u:r:untrusted_app:s0:c111,c256,c512,c76868Manager pid=3852 scontext=u:r:untrusted_app:s0:c111,c256,c512,c76868Manager tcontext=u:object_r:hal_configstore_ISurfaceFlingerConfigs:s0 tclass=hwservice_manager
+
+[2025-07-27 12:42:53.333 Uid(value=1000):16:16 E/SELinux]
+avc:  granted  { find } for interface=android.hardware.configstore::ISurfaceFlingerConfigs sid=u:r:untrusted_app:s0:c111,c256,c512,c76868Manager pid=3852 scontext=u:r:untrusted_app:s0:c111,c256,c512,c76868Manager tcontext=u:object_r:hal_configstore_ISurfaceFlingerConfigs:s0 tclass=hwservice_manager
+
+[2025-07-27 12:42:53.336 Uid(value=10111):3852:3895 E/egl-titan]
+eglGetProcAddress: procname=glInvalidateBufferData, native_address=0x0, address=0x0 not found!
+
+[2025-07-27 12:42:53.337 Uid(value=10111):3852:3895 E/egl-titan]
+eglGetProcAddress: procname=glInvalidateBufferSubData, native_address=0x0, address=0x0 not found!
+
+[2025-07-27 12:42:53.337 Uid(value=10111):3852:3895 E/egl-titan]
+eglGetProcAddress: procname=glInvalidateTexImage, native_address=0x0, address=0x0 not found!
+
+[2025-07-27 12:42:53.337 Uid(value=10111):3852:3895 E/egl-titan]
+eglGetProcAddress: procname=glInvalidateTexSubImage, native_address=0x0, address=0x0 not found!
+
+[2025-07-27 12:42:53.354 Uid(value=1000):16:16 E/SELinux]
+avc:  granted  { find } for interface=android.hardware.graphics.mapper::IMapper sid=u:r:untrusted_app:s0:c111,c256,c512,c7681,c256,c512,c76868Manager pid=3852 scontext=u:r:untrusted_app:s0:c111,c256,c512,c7681,c256,c512,c76868Manager tcontext=u:object_r:hal_graphics_mapper_hwservice:s0 tclass=hwservice_manager
+
+[2025-07-27 12:42:53.354 Uid(value=1000):16:16 I/hwservicemanager]
+getTransport: Cannot find entry android.hardware.graphics.mapper@3.0::IMapper/default in either framework or device manifest.
+
+[2025-07-27 12:42:53.355 Uid(value=10111):3852:3895 W/Gralloc3]
+mapper 3.x is not supported
+
+[2025-07-27 12:42:53.355 Uid(value=1000):16:16 E/SELinux]
+avc:  granted  { find } for interface=android.hardware.graphics.mapper::IMapper sid=u:r:untrusted_app:s0:c111,c256,c512,c7681,c256,c512,c76868Manager pid=3852 scontext=u:r:untrusted_app:s0:c111,c256,c512,c7681,c256,c512,c76868Manager tcontext=u:object_r:hal_graphics_mapper_hwservice:s0 tclass=hwservice_manager
+
+[2025-07-27 12:42:53.357 Uid(value=1000):16:16 E/SELinux]
+avc:  granted  { find } for interface=android.hardware.graphics.mapper::IMapper sid=u:r:untrusted_app:s0:c111,c256,c512,c7681,c256,c512,c76868Manager pid=3852 scontext=u:r:untrusted_app:s0:c111,c256,c512,c7681,c256,c512,c76868Manager tcontext=u:object_r:hal_graphics_mapper_hwservice:s0 tclass=hwservice_manager
+
+[2025-07-27 12:42:53.525 Uid(value=1000):216:258 I/ActivityTaskManager]
+Displayed com.aadil.aadilmods/.activities.MainActivity: +835ms
+
+[2025-07-27 12:42:53.791 Uid(value=10048):734:1135 I/FontLog]
+(REDACTED) Received query %s, URI %s
+
+[2025-07-27 12:42:53.792 Uid(value=10048):734:1135 I/FontLog]
+(REDACTED) Query [%s] resolved to %s
+
+[2025-07-27 12:42:53.795 Uid(value=10048):734:1135 I/FontLog]
+(REDACTED) Fetch %s end status %s
+
+[2025-07-27 12:42:53.798 Uid(value=10048):734:1135 I/FontLog]
+(REDACTED) Pulling font file for id = %d, cache size = %d
+
+[2025-07-27 12:42:53.801 Uid(value=10048):734:1135 I/FontLog]
+(REDACTED) Pulling font file for id = %d, cache size = %d
+
+[2025-07-27 12:42:54.177 Uid(value=1000):15:15 E/SELinux]
+avc:  granted  { find } for service=audio pid=3852 uid=10111 scontext=u:r:untrusted_app:s0:c111,c256,c512,c768512,c768512,c768 tcontext=u:object_r:audio_service:s0 tclass=service_manager
+
+[2025-07-27 12:42:54.179 Uid(value=10111):3852:3895 D/OpenGLRenderer]
+endAllActiveAnimators on 0x7119876100 (RippleDrawable) with handle 0x71a85dcb80
+
+[2025-07-27 12:42:54.185 Uid(value=1000):216:2940 I/ActivityTaskManager]
+START u0 {act=android.content.pm.action.REQUEST_PERMISSIONS pkg=com.android.permissioncontroller cmp=com.android.permissioncontroller/com.android.packageinstaller.permission.ui.GrantPermissionsActivity (has extras)} from uid 10111
+
+[2025-07-27 12:42:54.187 Uid(value=1000):216:2903 E/InputDispatcher]
+Window handle Window{5e94089 u0 com.aadil.aadilmods/com.aadil.aadilmods.activities.MainActivity} has no registered input channel
+
+[2025-07-27 12:42:54.200 Uid(value=10111):3852:3852 I/FIAM.Display]
+Unbinding from activity: activities.MainActivity
+
+[2025-07-27 12:42:54.200 Uid(value=10111):3852:3852 I/FIAM.Headless]
+Removing display event component
+
+[2025-07-27 12:42:54.203 Uid(value=10057):3664:3664 W/ActivityThread]
+handleWindowVisibility: no activity for token android.os.BinderProxy@11ae0f5
+
+[2025-07-27 12:42:54.212 Uid(value=root):43:247 E/TrafficController]
+Failed to set the counterSet: Bad file descriptor, fd: -1
+
+[2025-07-27 12:42:54.218 Uid(value=1000):15:15 E/SELinux]
+avc:  granted  { find } for service=activity_task pid=3664 uid=10057 scontext=u:r:platform_app:s0:c512,c768768512,c768 tcontext=u:object_r:activity_task_service:s0 tclass=service_manager
+
+[2025-07-27 12:42:54.218 Uid(value=1000):15:15 E/SELinux]
+avc:  granted  { find } for service=SurfaceFlinger pid=3664 uid=10057 scontext=u:r:platform_app:s0:c512,c768768512,c768 tcontext=u:object_r:surfaceflinger_service:s0 tclass=service_manager
+
+[2025-07-27 12:42:54.226 Uid(value=1000):15:15 E/SELinux]
+avc:  granted  { find } for service=ashmem_device_service pid=3664 uid=10057 scontext=u:r:platform_app:s0:c512,c768' tcontext=u:object_r:ashmem_device_service:s0 tclass=service_manager
+
+[2025-07-27 12:42:54.251 Uid(value=10111):3852:3925 I/FIAM.Headless]
+Fetching campaigns from service.
+
+[2025-07-27 12:42:54.256 Uid(value=10111):3852:3925 W/DynamiteModule]
+Local module descriptor class for com.google.android.gms.providerinstaller.dynamite not found.
+
+[2025-07-27 12:42:54.268 Uid(value=10048):734:906 W/ProviderHelper]
+Unknown dynamite feature providerinstaller.dynamite
+
+[2025-07-27 12:42:54.271 Uid(value=1000):15:15 E/SELinux]
+avc:  granted  { find } for service=device_policy pid=3664 uid=10057 scontext=u:r:platform_app:s0:c512,c768app:s0:c512,c768' tcontext=u:object_r:device_policy_service:s0 tclass=service_manager
+
+[2025-07-27 12:42:54.275 Uid(value=10111):3852:3925 I/DynamiteModule]
+Considering local module com.google.android.gms.providerinstaller.dynamite:0 and remote module com.google.android.gms.providerinstaller.dynamite:0
+
+[2025-07-27 12:42:54.276 Uid(value=10111):3852:3925 W/ProviderInstaller]
+Failed to load providerinstaller module: No acceptable module com.google.android.gms.providerinstaller.dynamite found. Local version is 0 and remote version is 0.
+
+[2025-07-27 12:42:54.285 Uid(value=10111):3852:3925 I/aadil.aadilmod]
+The ClassLoaderContext is a special shared library.
+
+[2025-07-27 12:42:54.288 Uid(value=10111):3852:3925 I/chatty]
+uid=10111(com.aadil.aadilmods) RxCachedThreadS identical 1 line
+
+[2025-07-27 12:42:54.290 Uid(value=10111):3852:3925 I/aadil.aadilmod]
+The ClassLoaderContext is a special shared library.
+
+[2025-07-27 12:42:54.339 Uid(value=10111):3852:3925 W/ProviderInstaller]
+Failed to report request stats: com.google.android.gms.common.security.ProviderInstallerImpl.reportRequestStats [class android.content.Context, long, long]
+
+[2025-07-27 12:42:54.369 Uid(value=10111):3852:3925 V/NativeCrypto]
+Registering com/google/android/gms/org/conscrypt/NativeCrypto's 315 native methods...
+
+[2025-07-27 12:42:54.377 Uid(value=10111):3852:3929 E/GoogleApiManager]
+Failed to get service from broker. 
+java.lang.SecurityException: Unknown calling package name 'com.google.android.gms'.
+	at android.os.Parcel.createException(Parcel.java:2071)
+	at android.os.Parcel.readException(Parcel.java:2039)
+	at android.os.Parcel.readException(Parcel.java:1987)
+	at ayao.a(:com.google.android.gms@252635013@25.26.35 (100400-783060121):36)
+	at axyv.z(:com.google.android.gms@252635013@25.26.35 (100400-783060121):150)
+	at axfv.run(:com.google.android.gms@252635013@25.26.35 (100400-783060121):42)
+	at android.os.Handler.handleCallback(Handler.java:883)
+	at android.os.Handler.dispatchMessage(Handler.java:100)
+	at cgvy.lV(:com.google.android.gms@252635013@25.26.35 (100400-783060121):1)
+	at cgvy.dispatchMessage(:com.google.android.gms@252635013@25.26.35 (100400-783060121):5)
+	at android.os.Looper.loop(Looper.java:214)
+	at android.os.HandlerThread.run(HandlerThread.java:67)
+
+[2025-07-27 12:42:54.382 Uid(value=10111):3852:3927 W/FlagRegistrar]
+Failed to register com.google.android.gms.providerinstaller#com.aadil.aadilmods
+elfv: 17: 17: API: Phenotype.API is not available on this device. Connection failed with: ConnectionResult{statusCode=DEVELOPER_ERROR, resolution=null, message=null}
+	at elfx.a(:com.google.android.gms@252635013@25.26.35 (100400-783060121):13)
+	at ffgl.d(:com.google.android.gms@252635013@25.26.35 (100400-783060121):3)
+	at ffgn.run(:com.google.android.gms@252635013@25.26.35 (100400-783060121):130)
+	at ffiu.execute(:com.google.android.gms@252635013@25.26.35 (100400-783060121):1)
+	at ffgv.f(:com.google.android.gms@252635013@25.26.35 (100400-783060121):1)
+	at ffgv.m(:com.google.android.gms@252635013@25.26.35 (100400-783060121):99)
+	at ffgv.r(:com.google.android.gms@252635013@25.26.35 (100400-783060121):17)
+	at edro.hK(:com.google.android.gms@252635013@25.26.35 (100400-783060121):35)
+	at dtxz.run(:com.google.android.gms@252635013@25.26.35 (100400-783060121):12)
+	at ffiu.execute(:com.google.android.gms@252635013@25.26.35 (100400-783060121):1)
+	at dtya.b(:com.google.android.gms@252635013@25.26.35 (100400-783060121):18)
+	at dtyp.b(:com.google.android.gms@252635013@25.26.35 (100400-783060121):36)
+	at dtyr.d(:com.google.android.gms@252635013@25.26.35 (100400-783060121):25)
+	at axde.c(:com.google.android.gms@252635013@25.26.35 (100400-783060121):9)
+	at axft.q(:com.google.android.gms@252635013@25.26.35 (100400-783060121):48)
+	at axft.d(:com.google.android.gms@252635013@25.26.35 (100400-783060121):10)
+	at axft.g(:com.google.android.gms@252635013@25.26.35 (100400-783060121):185)
+	at axft.onConnectionFailed(:com.google.android.gms@252635013@25.26.35 (100400-783060121):2)
+	at axfv.run(:com.google.android.gms@252635013@25.26.35 (100400-783060121):70)
+	at android.os.Handler.handleCallback(Handler.java:883)
+	at android.os.Handler.dispatchMessage(Handler.java:100)
+	at cgvy.lV(:com.google.android.gms@252635013@25.26.35 (100400-783060121):1)
+	at cgvy.dispatchMessage(:com.google.android.gms@252635013@25.26.35 (100400-783060121):5)
+	at android.os.Looper.loop(Looper.java:214)
+	at android.os.HandlerThread.run(HandlerThread.java:67)
+Caused by: axbs: 17: API: Phenotype.API is not available on this device. Connection failed with: ConnectionResult{statusCode=DEVELOPER_ERROR, resolution=null, message=null}
+	at axyh.a(:com.google.android.gms@252635013@25.26.35 (100400-783060121):15)
+	at axdh.a(:com.google.android.gms@252635013@25.26.35 (100400-783060121):1)
+	at axde.c(:com.google.android.gms@252635013@25.26.35 (100400-783060121):5)
+	... 11 more
+
+[2025-07-27 12:42:54.389 Uid(value=10111):3852:3925 I/ProviderInstaller]
+Installed default security provider GmsCore_OpenSSL
+
+[2025-07-27 12:42:54.459 Uid(value=10057):3664:3924 D/libEGL]
+loaded /vendor/lib64/egl/libEGL_adreno.so
+
+[2025-07-27 12:42:54.461 Uid(value=10057):3664:3924 E/egl-titan]
+eglGetProcAddress: procname=eglCreateImage, native_address=0x0, address=0x0 not found!
+
+[2025-07-27 12:42:54.461 Uid(value=10057):3664:3924 E/egl-titan]
+eglGetProcAddress: procname=eglDestroyImage, native_address=0x0, address=0x0 not found!
+
+[2025-07-27 12:42:54.461 Uid(value=10057):3664:3924 E/egl-titan]
+eglGetProcAddress: procname=eglGetPlatformDisplay, native_address=0x0, address=0x0 not found!
+
+[2025-07-27 12:42:54.461 Uid(value=10057):3664:3924 E/egl-titan]
+eglGetProcAddress: procname=eglCreatePlatformWindowSurface, native_address=0x0, address=0x0 not found!
+
+[2025-07-27 12:42:54.461 Uid(value=10057):3664:3924 E/egl-titan]
+eglGetProcAddress: procname=eglCreatePlatformPixmapSurface, native_address=0x0, address=0x0 not found!
+
+[2025-07-27 12:42:54.461 Uid(value=10057):3664:3924 E/egl-titan]
+eglGetProcAddress: procname=eglCreateSync, native_address=0x0, address=0x0 not found!
+
+[2025-07-27 12:42:54.461 Uid(value=10057):3664:3924 E/egl-titan]
+eglGetProcAddress: procname=eglDestroySync, native_address=0x0, address=0x0 not found!
+
+[2025-07-27 12:42:54.461 Uid(value=10057):3664:3924 E/egl-titan]
+eglGetProcAddress: procname=eglClientWaitSync, native_address=0x0, address=0x0 not found!
+
+[2025-07-27 12:42:54.461 Uid(value=10057):3664:3924 E/egl-titan]
+eglGetProcAddress: procname=eglGetSyncAttrib, native_address=0x0, address=0x0 not found!
+
+[2025-07-27 12:42:54.461 Uid(value=10057):3664:3924 E/egl-titan]
+eglGetProcAddress: procname=eglWaitSync, native_address=0x0, address=0x0 not found!
+
+[2025-07-27 12:42:54.461 Uid(value=10057):3664:3924 E/egl-titan]
+eglGetProcAddress: procname=eglCreatePlatformWindowSurfaceEXT, native_address=0x0, address=0x0 not found!
+
+[2025-07-27 12:42:54.461 Uid(value=10057):3664:3924 E/egl-titan]
+eglGetProcAddress: procname=eglCreatePlatformPixmapSurfaceEXT, native_address=0x0, address=0x0 not found!
+
+[2025-07-27 12:42:54.461 Uid(value=10057):3664:3924 E/egl-titan]
+eglGetProcAddress: procname=eglSetSwapRectangleANDROID, native_address=0x0, address=0x0 not found!
+
+[2025-07-27 12:42:54.461 Uid(value=10057):3664:3924 E/egl-titan]
+eglGetProcAddress: procname=eglGetRenderBufferANDROID, native_address=0x0, address=0x0 not found!
+
+[2025-07-27 12:42:54.461 Uid(value=10057):3664:3924 E/egl-titan]
+eglGetProcAddress: procname=eglGetNativeClientBufferANDROID, native_address=0x0, address=0x0 not found!
+
+[2025-07-27 12:42:54.462 Uid(value=10057):3664:3924 E/egl-titan]
+eglGetProcAddress: procname=eglHibernateProcessIMG, native_address=0x0, address=0x0 not found!
+
+[2025-07-27 12:42:54.462 Uid(value=10057):3664:3924 E/egl-titan]
+eglGetProcAddress: procname=eglAwakenProcessIMG, native_address=0x0, address=0x0 not found!
+
+[2025-07-27 12:42:54.462 Uid(value=10057):3664:3924 D/libEGL]
+loaded /vendor/lib64/egl/libGLESv1_CM_adreno.so
+
+[2025-07-27 12:42:54.463 Uid(value=10057):3664:3924 D/libEGL]
+loaded /vendor/lib64/egl/libGLESv2_adreno.so
+
+[2025-07-27 12:42:54.468 Uid(value=1000):15:15 E/SELinux]
+avc:  granted  { find } for service=gpu pid=3664 uid=10057 scontext=u:r:platform_app:s0:c512,c768latform_app:s0:c512,c768app:s0:c512,c768' tcontext=u:object_r:gpu_service:s0 tclass=service_manager
+
+[2025-07-27 12:42:54.485 Uid(value=10057):3664:3922 E/libEGL]
+Driver indicates EGL 1.5 support, but does not have a critical API
+
+[2025-07-27 12:42:54.486 Uid(value=1000):16:16 E/SELinux]
+avc:  granted  { find } for interface=android.hardware.configstore::ISurfaceFlingerConfigs sid=u:r:platform_app:s0:c512,c7686,c512,c76868Manager pid=3664 scontext=u:r:platform_app:s0:c512,c7686,c512,c76868Manager tcontext=u:object_r:hal_configstore_ISurfaceFlingerConfigs:s0 tclass=hwservice_manager
+
+[2025-07-27 12:42:54.488 Uid(value=1000):16:16 E/SELinux]
+avc:  granted  { find } for interface=android.hardware.configstore::ISurfaceFlingerConfigs sid=u:r:platform_app:s0:c512,c7686,c512,c76868Manager pid=3664 scontext=u:r:platform_app:s0:c512,c7686,c512,c76868Manager tcontext=u:object_r:hal_configstore_ISurfaceFlingerConfigs:s0 tclass=hwservice_manager
+
+[2025-07-27 12:42:54.492 Uid(value=10057):3664:3922 E/egl-titan]
+eglGetProcAddress: procname=glInvalidateBufferData, native_address=0x0, address=0x0 not found!
+
+[2025-07-27 12:42:54.493 Uid(value=10057):3664:3922 E/egl-titan]
+eglGetProcAddress: procname=glInvalidateBufferSubData, native_address=0x0, address=0x0 not found!
+
+[2025-07-27 12:42:54.493 Uid(value=10057):3664:3922 E/egl-titan]
+eglGetProcAddress: procname=glInvalidateTexImage, native_address=0x0, address=0x0 not found!
+
+[2025-07-27 12:42:54.493 Uid(value=10057):3664:3922 E/egl-titan]
+eglGetProcAddress: procname=glInvalidateTexSubImage, native_address=0x0, address=0x0 not found!
+
+[2025-07-27 12:42:54.507 Uid(value=1000):16:16 E/SELinux]
+avc:  granted  { find } for interface=android.hardware.graphics.mapper::IMapper sid=u:r:platform_app:s0:c512,c768app:s0:c512,c7686,c512,c76868Manager pid=3664 scontext=u:r:platform_app:s0:c512,c768app:s0:c512,c7686,c512,c76868Manager tcontext=u:object_r:hal_graphics_mapper_hwservice:s0 tclass=hwservice_manager
+
+[2025-07-27 12:42:54.507 Uid(value=1000):16:16 I/hwservicemanager]
+getTransport: Cannot find entry android.hardware.graphics.mapper@3.0::IMapper/default in either framework or device manifest.
+
+[2025-07-27 12:42:54.508 Uid(value=10057):3664:3922 W/Gralloc3]
+mapper 3.x is not supported
+
+[2025-07-27 12:42:54.508 Uid(value=1000):16:16 E/SELinux]
+avc:  granted  { find } for interface=android.hardware.graphics.mapper::IMapper sid=u:r:platform_app:s0:c512,c768app:s0:c512,c7686,c512,c76868Manager pid=3664 scontext=u:r:platform_app:s0:c512,c768app:s0:c512,c7686,c512,c76868Manager tcontext=u:object_r:hal_graphics_mapper_hwservice:s0 tclass=hwservice_manager
+
+[2025-07-27 12:42:54.511 Uid(value=1000):16:16 E/SELinux]
+avc:  granted  { find } for interface=android.hardware.graphics.mapper::IMapper sid=u:r:platform_app:s0:c512,c768app:s0:c512,c7686,c512,c76868Manager pid=3664 scontext=u:r:platform_app:s0:c512,c768app:s0:c512,c7686,c512,c76868Manager tcontext=u:object_r:hal_graphics_mapper_hwservice:s0 tclass=hwservice_manager
+
+[2025-07-27 12:42:54.529 Uid(value=1000):15:15 E/SELinux]
+avc:  granted  { find } for service=autofill pid=3852 uid=10111 scontext=u:r:untrusted_app:s0:c111,c256,c512,c768:s0:c512,c768' tcontext=u:object_r:autofill_service:s0 tclass=service_manager
+
+[2025-07-27 12:42:54.569 Uid(value=1000):216:258 I/ActivityTaskManager]
+Displayed com.android.permissioncontroller/com.android.packageinstaller.permission.ui.GrantPermissionsActivity: +336ms
+
+[2025-07-27 12:42:54.852 Uid(value=1000):216:259 W/BroadcastQueue]
+Background execution not allowed: receiving Intent { act=android.intent.action.DROPBOX_ENTRY_ADDED flg=0x10 (has extras) } to com.google.android.gms/.stats.service.DropBoxEntryAddedReceiver
+
+[2025-07-27 12:42:54.950 Uid(value=10111):3852:3925 I/FIAM.Headless]
+Successfully fetched 0 messages from backend
+
+[2025-07-27 12:42:54.951 Uid(value=10111):3852:3925 I/FIAM.Headless]
+Recoverable exception while reading cache: /data/user/0/com.aadil.aadilmods/files/fiam_impressions_store_file: open failed: ENOENT (No such file or directory)
+
+[2025-07-27 12:42:55.048 Uid(value=1000):15:15 E/SELinux]
+avc:  granted  { find } for service=autofill pid=3664 uid=10057 scontext=u:r:platform_app:s0:c512,c7686,c512,c768:s0:c512,c768' tcontext=u:object_r:autofill_service:s0 tclass=service_manager
+
+[2025-07-27 12:42:55.129 Uid(value=1000):15:15 E/SELinux]
+avc:  granted  { find } for service=audio pid=3664 uid=10057 scontext=u:r:platform_app:s0:c512,c768512,c7686,c512,c768:s0:c512,c768' tcontext=u:object_r:audio_service:s0 tclass=service_manager
+
+[2025-07-27 12:42:55.130 Uid(value=10057):3664:3664 V/GrantPermissionsActivity]
+Logged buttons presented and clicked permissionGroupName=android.permission-group.STORAGE uid=10111 package=com.aadil.aadilmods presentedButtons=9 clickedButton=1
+
+[2025-07-27 12:42:55.130 Uid(value=1000):15:15 E/SELinux]
+avc:  granted  { find } for service=trust pid=3664 uid=10057 scontext=u:r:platform_app:s0:c512,c768512,c7686,c512,c768:s0:c512,c768' tcontext=u:object_r:trust_service:s0 tclass=service_manager
+
+[2025-07-27 12:42:55.134 Uid(value=root):23:878 D/vold]
+Remounting 10111 as mode default
+
+[2025-07-27 12:42:55.136 Uid(value=root):23:878 D/vold]
+Found matching PID 3852
+
+[2025-07-27 12:42:55.146 Uid(value=10057):3664:3664 V/GrantPermissionsActivity]
+Permission grant result requestId=-7679377151429232366 callingUid=10111 callingPackage=com.aadil.aadilmods permission=android.permission.READ_EXTERNAL_STORAGE isImplicit=false result=4
+
+[2025-07-27 12:42:55.166 Uid(value=10111):3852:3852 I/FIAM.Display]
+Binding to activity: activities.MainActivity
+
+[2025-07-27 12:42:55.166 Uid(value=10111):3852:3852 I/FIAM.Headless]
+Setting display event component
+
+[2025-07-27 12:42:55.177 Uid(value=1000):15:15 E/SELinux]
+avc:  granted  { find } for service=autofill pid=3664 uid=10057 scontext=u:r:platform_app:s0:c512,c7686,c512,c768:s0:c512,c768' tcontext=u:object_r:autofill_service:s0 tclass=service_manager
+
+[2025-07-27 12:42:55.184 Uid(value=root):43:247 E/TrafficController]
+Failed to delete the counterSet: Bad file descriptor
+
+[2025-07-27 12:42:55.186 Uid(value=10057):3664:3922 D/OpenGLRenderer]
+endAllActiveAnimators on 0x71a47ecf00 (RippleDrawable) with handle 0x71a850b2a0
+
+[2025-07-27 12:42:55.372 Uid(value=1000):86:86 W/SurfaceFlinger]
+couldn't log to binary event log: overflow.
+
+[2025-07-27 12:42:56.186 Uid(value=1000):216:891 E/TaskPersister]
+File error accessing recents directory (directory doesn't exist?).
+
+[2025-07-27 12:42:56.332 Uid(value=10048):734:734 D/BoundBrokerSvc]
+onUnbind: Intent { act=com.google.android.gms.clearcut.service.START pkg=com.google.android.gms }
+
+[2025-07-27 12:42:56.335 Uid(value=10048):995:995 D/BoundBrokerSvc]
+onUnbind: Intent { act=com.google.android.gms.safetynet.service.START pkg=com.google.android.gms }
+
+[2025-07-27 12:42:57.498 Uid(value=10048):734:3634 D/BluetoothAdapter]
+isLeEnabled(): ON
+
+[2025-07-27 12:42:57.500 Uid(value=1002):363:1661 D/BluetoothAdapterService]
+getAdapterService() - returning com.android.bluetooth.btservice.AdapterService@74ee604
+
+[2025-07-27 12:42:57.535 Uid(value=1000):216:2940 I/ActivityManager]
+Killing 3738:android.process.acore/u0a38 (adj 925): empty #2
+
+[2025-07-27 12:42:57.535 Uid(value=1000):216:2940 W/System.err]
+java.lang.Exception
+
+[2025-07-27 12:42:57.535 Uid(value=1000):216:2940 W/System.err]
+	at com.android.server.am.ProcessRecord.kill(ProcessRecord.java:773)
+
+[2025-07-27 12:42:57.535 Uid(value=1000):216:2940 W/System.err]
+	at com.android.server.am.OomAdjuster.updateOomAdjLocked(OomAdjuster.java:482)
+
+[2025-07-27 12:42:57.535 Uid(value=1000):216:2940 W/System.err]
+	at com.android.server.am.ActivityManagerService.updateOomAdjLocked(ActivityManagerService.java:16960)
+
+[2025-07-27 12:42:57.535 Uid(value=1000):216:2940 W/System.err]
+	at com.android.server.am.ActiveServices.unbindServiceLocked(ActiveServices.java:1961)
+
+[2025-07-27 12:42:57.535 Uid(value=1000):216:2940 W/System.err]
+	at com.android.server.am.ActivityManagerService.unbindService(ActivityManagerService.java:14089)
+
+[2025-07-27 12:42:57.535 Uid(value=1000):216:2940 W/System.err]
+	at android.app.IActivityManager$Stub.onTransact(IActivityManager.java:2265)
+
+[2025-07-27 12:42:57.535 Uid(value=1000):216:2940 W/System.err]
+	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2741)
+
+[2025-07-27 12:42:57.536 Uid(value=1000):216:2940 W/System.err]
+	at android.os.Binder.execTransactInternal(Binder.java:1021)
+
+[2025-07-27 12:42:57.536 Uid(value=1000):216:2940 W/System.err]
+	at android.os.Binder.execTransact(Binder.java:994)
+
+[2025-07-27 12:42:57.537 Uid(value=1000):216:261 W/libprocessgroup]
+Failed to open process cgroup uid 10038 pid 3738: Permission denied
+
+[2025-07-27 12:42:57.537 Uid(value=1000):216:261 E/libprocessgroup]
+Error encountered killing process cgroup uid 10038 pid 3738: Permission denied
+
+[2025-07-27 12:42:57.540 Uid(value=1000):216:2926 D/CountryDetector]
+No listener is left
+
+[2025-07-27 12:42:57.543 Uid(value=root):44:44 I/Zygote]
+Process 3738 exited due to signal 9 (Killed)
+
+[2025-07-27 12:42:57.554 Uid(value=1000):15:15 E/SELinux]
+avc:  granted  { find } for service=activity pid=82 uid=1041 scontext=u:object_r:audioserver_exec:s0,c512,c768:s0:c512,c768' tcontext=u:object_r:activity_service:s0 tclass=service_manager
+
+[2025-07-27 12:42:57.588 Uid(value=1000):15:15 E/SELinux]
+avc:  granted  { find } for service=phone pid=216 uid=1000 scontext=u:r:system_server:s0udioserver_exec:s0,c512,c768:s0:c512,c768' tcontext=u:object_r:radio_service:s0 tclass=service_manager
+
+[2025-07-27 12:42:57.589 Uid(value=1000):15:15 E/SELinux]
+avc:  granted  { find } for service=telephony.registry pid=216 uid=1000 scontext=u:r:system_server:s0c768:s0:c512,c768' tcontext=u:object_r:registry_service:s0 tclass=service_manager
+
+[2025-07-27 12:42:58.318 Uid(value=10111):3852:3959 D/ProfileInstaller]
+Installing profile for com.aadil.aadilmods
+
+[2025-07-27 12:42:58.847 Uid(value=1002):50:698 I/bt_vendor]
+bt_vendor_op op 7
+
+[2025-07-27 12:42:58.847 Uid(value=1002):50:698 I/bt_vendor]
+bt_vendor_op op 7 retval 0
+
+[2025-07-27 12:42:59.451 Uid(value=1000):15:15 E/SELinux]
+avc:  granted  { find } for service=carrier_config pid=530 uid=1001 scontext=u:r:radio:s0system_server:s0c768:s0:c512,c768' tcontext=u:object_r:radio_service:s0 tclass=service_manager
+
+[2025-07-27 12:42:59.453 Uid(value=1000):15:15 E/SELinux]
+avc:  granted  { find } for service=isub pid=530 uid=1001 scontext=u:r:radio:s0 tcontext=u:object_r:radio_service:s0 tclass=service_manager
+
+[2025-07-27 12:43:00.543 Uid(value=10048):734:3634 E/NearbyMediums]
+MEDIUM_ERROR [SYSTEM][BLE][START_ADVERTISING][START_LEGACY_ADVERTISING_FAILED][TIMEOUT], service-id=NearbySharing
+
+[2025-07-27 12:43:00.933 Uid(value=10111):3852:3852 D/AndroidRuntime]
+Shutting down VM
+
+[2025-07-27 12:43:00.937 Uid(value=10111):3852:3852 E/AndroidRuntime]
+FATAL EXCEPTION: main
+Process: com.aadil.aadilmods, PID: 3852
+java.lang.VerifyError: Verifier rejected class com.aadil.aadilmods.ui.appsstore.AppFullDetailFragment: void com.aadil.aadilmods.ui.appsstore.AppFullDetailFragment.loadUI$lambda$10$lambda$6(com.aadil.aadilmods.ui.appsstore.AppFullDetailFragment, android.widget.TextView, android.view.View): [0xFFFFFFFF] register index out of range (5 >= 5) (declaration of 'com.aadil.aadilmods.ui.appsstore.AppFullDetailFragment' appears in base.apk)
+	at com.aadil.aadilmods.ui.appsstore.AppsStoreFragment.onItemClick(AppsStoreFragment.kt:129)
+	at com.aadil.aadilmods.ui.appsstore.AppsStoreRecyclerAdapter.onBindViewHolder$lambda$4(AppsStoreRecyclerAdapter.kt:116)
+	at com.aadil.aadilmods.ui.appsstore.AppsStoreRecyclerAdapter.$r8$lambda$VaTGlrHgwNtTslfuHxWyAIpN18c(Unknown Source:0)
+	at com.aadil.aadilmods.ui.appsstore.AppsStoreRecyclerAdapter$$ExternalSyntheticLambda2.onClick(D8$$SyntheticClass:0)
+	at android.view.View.performClick(View.java:7140)
+	at android.view.View.performClickInternal(View.java:7117)
+	at android.view.View.access$3500(View.java:801)
+	at android.view.View$PerformClick.run(View.java:27351)
+	at android.os.Handler.handleCallback(Handler.java:883)
+	at android.os.Handler.dispatchMessage(Handler.java:100)
+	at android.os.Looper.loop(Looper.java:214)
+	at android.app.ActivityThread.main(ActivityThread.java:7356)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:492)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:930)
+
+[2025-07-27 12:43:00.938 Uid(value=1000):15:15 E/SELinux]
+avc:  granted  { find } for service=dropbox pid=216 uid=1000 scontext=u:r:system_server:s0radio:s0system_server:s0c768:s0:c512,c768' tcontext=u:object_r:dropbox_service:s0 tclass=service_manager
+
+[2025-07-27 12:43:00.944 Uid(value=1000):216:3960 I/DropBoxManagerService]
+add tag=data_app_crash isTagEnabled=true flags=0x2
+
+[2025-07-27 12:43:00.948 Uid(value=1000):216:2911 W/ActivityTaskManager]
+  Force finishing activity com.aadil.aadilmods/.activities.MainActivity
+
+[2025-07-27 12:43:00.958 Uid(value=1000):216:259 W/BroadcastQueue]
+Background execution not allowed: receiving Intent { act=android.intent.action.DROPBOX_ENTRY_ADDED flg=0x10 (has extras) } to com.google.android.gms/.stats.service.DropBoxEntryAddedReceiver
+
+[2025-07-27 12:43:00.961 Uid(value=10111):3852:3852 I/Process]
+Sending signal. PID: 3852 SIG: 9
+
+[2025-07-27 12:43:00.978 Uid(value=1000):216:319 W/InputDispatcher]
+channel 'b8510a8 com.aadil.aadilmods/com.aadil.aadilmods.activities.MainActivity (server)' ~ Consumer closed input channel or an error occurred.  events=0x8
+
+[2025-07-27 12:43:00.978 Uid(value=1000):216:319 E/InputDispatcher]
+channel 'b8510a8 com.aadil.aadilmods/com.aadil.aadilmods.activities.MainActivity (server)' ~ Channel is unrecoverably broken and will be disposed!
+
+[2025-07-27 12:43:00.982 Uid(value=1000):216:2605 D/ConnectivityService]
+ConnectivityService NetworkRequestInfo binderDied(NetworkRequest [ TRACK_DEFAULT id=40, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Uid: 10111] ], android.os.BinderProxy@9eb36a4)
+
+[2025-07-27 12:43:00.982 Uid(value=1000):216:2940 I/ActivityManager]
+Process com.aadil.aadilmods (pid 3852) has died: vis+99 TOP 
+
+[2025-07-27 12:43:00.983 Uid(value=1000):216:261 W/libprocessgroup]
+Failed to open process cgroup uid 10111 pid 3852: Permission denied
+
+[2025-07-27 12:43:00.983 Uid(value=1000):216:261 E/libprocessgroup]
+Error encountered killing process cgroup uid 10111 pid 3852: Permission denied
+
+[2025-07-27 12:43:00.985 Uid(value=1000):216:332 D/ConnectivityService]
+releasing NetworkRequest [ TRACK_DEFAULT id=40, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Uid: 10111] ] (release request)
+
+[2025-07-27 12:43:00.985 Uid(value=1000):216:2905 I/WindowManager]
+WIN DEATH: Window{b8510a8 u0 com.aadil.aadilmods/com.aadil.aadilmods.activities.MainActivity}
+
+[2025-07-27 12:43:00.986 Uid(value=1000):216:2905 W/InputDispatcher]
+Attempted to unregister already unregistered input channel 'b8510a8 com.aadil.aadilmods/com.aadil.aadilmods.activities.MainActivity (server)'
+
+[2025-07-27 12:43:00.987 Uid(value=root):44:44 I/Zygote]
+Process 3852 exited due to signal 9 (Killed)
+
+[2025-07-27 12:43:00.987 Uid(value=1000):15:15 E/SELinux]
+avc:  granted  { find } for service=telephony.registry pid=530 uid=1001 scontext=u:r:radio:s0erver:s0c768:s0:c512,c768' tcontext=u:object_r:registry_service:s0 tclass=service_manager
+
+[2025-07-27 12:43:00.991 Uid(value=10048):995:995 D/BoundBrokerSvc]
+onUnbind: Intent { act=com.google.android.gms.auth.api.signin.service.START pkg=com.google.android.gms }
+
+[2025-07-27 12:43:00.993 Uid(value=1000):15:15 E/SELinux]
+avc:  granted  { find } for service=isub pid=379 uid=10097 scontext=u:r:platform_app:s0:c512,c768adio:s0erver:s0c768:s0:c512,c768' tcontext=u:object_r:radio_service:s0 tclass=service_manager
+
+[2025-07-27 12:43:00.996 Uid(value=1000):15:15 E/SELinux]
+avc:  granted  { find } for service=isub pid=379 uid=10097 scontext=u:r:platform_app:s0:c512,c768adio:s0erver:s0c768:s0:c512,c768' tcontext=u:object_r:radio_service:s0 tclass=service_manager
+
+[2025-07-27 12:43:01.010 Uid(value=1000):15:15 E/SELinux]
+avc:  granted  { find } for service=activity pid=82 uid=1041 scontext=u:object_r:audioserver_exec:s0ver:s0c768:s0:c512,c768' tcontext=u:object_r:activity_service:s0 tclass=service_manager
+
+[2025-07-27 12:43:01.010 Uid(value=root):43:247 E/TrafficController]
+Failed to delete the counterSet: Bad file descriptor
+
+[2025-07-27 12:43:01.011 Uid(value=1002):50:57 I/bt_vendor]
+bt_vendor_op op 7
+
+[2025-07-27 12:43:01.011 Uid(value=1002):50:57 I/bt_vendor]
+bt_vendor_op op 7 retval 0
+
+[2025-07-27 12:43:01.012 Uid(value=root):43:1197 E/BandwidthController]
+unable to update the Bandwidth Uid Map: Status[code: 9, msg: "[Bad file descriptor] : write to map -1 failed"]
+
+[2025-07-27 12:43:01.012 Uid(value=root):43:1197 I/netd]
+bandwidthAddNiceApp(10048) -> ServiceSpecificException(-9, "Unknown error -9") <0.15ms>
+
+[2025-07-27 12:43:01.013 Uid(value=1000):216:1860 I/ActivityManager]
+Killing 3664:com.android.permissioncontroller/u0a57 (adj 915): empty #2
+
+[2025-07-27 12:43:01.013 Uid(value=1000):216:1860 W/System.err]
+java.lang.Exception
+
+[2025-07-27 12:43:01.013 Uid(value=1000):216:1860 W/System.err]
+	at com.android.server.am.ProcessRecord.kill(ProcessRecord.java:773)
+
+[2025-07-27 12:43:01.013 Uid(value=1000):216:1860 W/System.err]
+	at com.android.server.am.OomAdjuster.updateOomAdjLocked(OomAdjuster.java:482)
+
+[2025-07-27 12:43:01.014 Uid(value=1000):216:1860 W/System.err]
+	at com.android.server.am.OomAdjuster.updateOomAdjLocked(OomAdjuster.java:228)
+
+[2025-07-27 12:43:01.014 Uid(value=1000):216:1860 W/System.err]
+	at com.android.server.am.ActivityManagerService.updateOomAdjLocked(ActivityManagerService.java:16762)
+
+[2025-07-27 12:43:01.014 Uid(value=1000):216:1860 W/System.err]
+	at com.android.server.am.ActiveServices.serviceDoneExecutingLocked(ActiveServices.java:3304)
+
+[2025-07-27 12:43:01.014 Uid(value=1000):216:1860 W/System.err]
+	at com.android.server.am.ActiveServices.serviceDoneExecutingLocked(ActiveServices.java:3251)
+
+[2025-07-27 12:43:01.014 Uid(value=1000):216:1860 W/System.err]
+	at com.android.server.am.ActivityManagerService.serviceDoneExecuting(ActivityManagerService.java:14124)
+
+[2025-07-27 12:43:01.014 Uid(value=1000):216:1860 W/System.err]
+	at android.app.IActivityManager$Stub.onTransact(IActivityManager.java:2599)
+
+[2025-07-27 12:43:01.014 Uid(value=1000):216:1860 W/System.err]
+	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2741)
+
+[2025-07-27 12:43:01.015 Uid(value=1000):216:1860 W/System.err]
+	at android.os.Binder.execTransactInternal(Binder.java:1021)
+
+[2025-07-27 12:43:01.015 Uid(value=1000):216:1860 W/System.err]
+	at android.os.Binder.execTransact(Binder.java:994)
+
+[2025-07-27 12:43:01.015 Uid(value=1000):216:327 E/NetworkPolicy]
+problem setting whitelist (true) rules for 10048
+java.lang.IllegalStateException: android.os.ServiceSpecificException: Unknown error -9 (code -9)
+	at com.android.server.NetworkManagementService.setUidOnMeteredNetworkList(NetworkManagementService.java:1402)
+	at com.android.server.NetworkManagementService.setUidMeteredNetworkWhitelist(NetworkManagementService.java:1416)
+	at com.android.server.net.NetworkPolicyManagerService.setMeteredNetworkWhitelist(NetworkPolicyManagerService.java:4695)
+	at com.android.server.net.NetworkPolicyManagerService.updateRulesForDataUsageRestrictionsULInner(NetworkPolicyManagerService.java:4240)
+	at com.android.server.net.NetworkPolicyManagerService.updateRulesForDataUsageRestrictionsUL(NetworkPolicyManagerService.java:4143)
+	at com.android.server.net.NetworkPolicyManagerService.updateRestrictBackgroundRulesOnUidStatusChangedUL(NetworkPolicyManagerService.java:3627)
+	at com.android.server.net.NetworkPolicyManagerService.updateUidStateUL(NetworkPolicyManagerService.java:3565)
+	at com.android.server.net.NetworkPolicyManagerService.handleUidChanged(NetworkPolicyManagerService.java:4605)
+	at com.android.server.net.NetworkPolicyManagerService$18.handleMessage(NetworkPolicyManagerService.java:4581)
+	at android.os.Handler.dispatchMessage(Handler.java:103)
+	at android.os.Looper.loop(Looper.java:214)
+	at android.os.HandlerThread.run(HandlerThread.java:67)
+	at com.android.server.ServiceThread.run(ServiceThread.java:44)
+Caused by: android.os.ServiceSpecificException: Unknown error -9 (code -9)
+	at android.os.Parcel.createException(Parcel.java:2085)
+	at android.os.Parcel.readException(Parcel.java:2039)
+	at android.os.Parcel.readException(Parcel.java:1987)
+	at android.net.INetd$Stub$Proxy.bandwidthAddNiceApp(INetd.java:2639)
+	at com.android.server.NetworkManagementService.setUidOnMeteredNetworkList(NetworkManagementService.java:1389)
+	... 12 more
+
+[2025-07-27 12:43:01.017 Uid(value=1000):15:15 E/SELinux]
+avc:  granted  { find } for service=dropbox pid=216 uid=1000 scontext=u:r:system_server:s0udioserver_exec:s0ver:s0c768:s0:c512,c768' tcontext=u:object_r:dropbox_service:s0 tclass=service_manager
+
+[2025-07-27 12:43:01.017 Uid(value=1000):216:253 W/ActivityManager]
+setHasOverlayUi called on unknown pid: 3852
+
+[2025-07-27 12:43:01.017 Uid(value=1000):216:327 I/DropBoxManagerService]
+add tag=system_server_wtf isTagEnabled=true flags=0x2
+
+[2025-07-27 12:43:01.020 Uid(value=root):43:247 E/TrafficController]
+Failed to delete the counterSet: Bad file descriptor
+
+[2025-07-27 12:43:01.021 Uid(value=1000):216:261 W/libprocessgroup]
+Failed to open process cgroup uid 10057 pid 3664: Permission denied
+
+[2025-07-27 12:43:01.021 Uid(value=1000):216:261 E/libprocessgroup]
+Error encountered killing process cgroup uid 10057 pid 3664: Permission denied
+
+[2025-07-27 12:43:01.032 Uid(value=root):44:44 I/Zygote]
+Process 3664 exited due to signal 9 (Killed)
+
+[2025-07-27 12:43:01.034 Uid(value=1000):15:15 E/SELinux]
+avc:  granted  { find } for service=activity pid=82 uid=1041 scontext=u:object_r:audioserver_exec:s0ver:s0c768:s0:c512,c768' tcontext=u:object_r:activity_service:s0 tclass=service_manager
+
+[2025-07-27 12:43:01.041 Uid(value=1000):216:253 W/ActivityManager]
+setHasOverlayUi called on unknown pid: 3664
+
+[2025-07-27 12:43:01.059 Uid(value=10048):734:3905 I/NearbyMediums]
+No BLE Fast/GATT advertisements found in the latest cycle.
+
+[2025-07-27 12:43:01.071 Uid(value=1000):15:15 E/SELinux]
+avc:  granted  { find } for service=dropbox pid=734 uid=10048 scontext=u:r:priv_app:s0:c512,c768erver_exec:s0ver:s0c768:s0:c512,c768' tcontext=u:object_r:dropbox_service:s0 tclass=service_manager
+
+[2025-07-27 12:43:01.449 Uid(value=1000):216:253 W/ActivityTaskManager]
+Activity top resumed state loss timeout for ActivityRecord{89c86f4 u0 com.aadil.aadilmods/.activities.MainActivity t-1 f}
+
+[2025-07-27 12:43:03.021 Uid(value=1000):216:259 W/BroadcastQueue]
+Background execution not allowed: receiving Intent { act=android.intent.action.DROPBOX_ENTRY_ADDED flg=0x10 (has extras) } to com.google.android.gms/.stats.service.DropBoxEntryAddedReceiver
+
+[2025-07-27 12:43:03.177 Uid(value=1000):216:2926 I/ActivityTaskManager]
+START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.dp.logcatapp/.activities.MainActivity bnds=[640,601][839,944]} from uid 10094
+
+[2025-07-27 12:43:03.274 Uid(value=1000):216:258 E/memtrack]
+Couldn't load memtrack module
+
+[2025-07-27 12:43:03.275 Uid(value=1000):216:258 W/android.os.Debug]
+failed to get memory consumption info: -1
+
+[2025-07-27 12:43:03.448 Uid(value=1000):216:258 E/memtrack]
+Couldn't load memtrack module
+
+[2025-07-27 12:43:03.448 Uid(value=1000):216:258 W/android.os.Debug]
+failed to get memory consumption info: -1
+
+[2025-07-27 12:43:03.670 Uid(value=1000):86:86 E/Layer]
+[Surface(name=AppWindowToken{eb86596 token=Token{dde6cb1 ActivityRecord{ce80358 u0 com.android.launcher3/.Launcher t89}}})/@0x7775352 - animation-leash#0] No local sync point found
+
+[2025-07-27 12:43:03.670 Uid(value=1000):86:86 E/Layer]
+[Surface(name=AppWindowToken{b8824bb token=Token{808cd4a ActivityRecord{2dd92b5 u0 com.dp.logcatapp/.activities.MainActivity t91}}})/@0x5b53ca1 - animation-leash#0] No local sync point found
+
