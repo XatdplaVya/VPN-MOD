@@ -124,51 +124,8 @@
     {
       "api": "https://lotto.api.rayriffy.com/lotto/16122567",
       "date": "16 DECEMBER 2567"
-    },
-    {
-      "api": "https://lotto.api.rayriffy.com/lotto/01122567",
-      "date": "01 DECEMBER 2567"
-    },
-
-    {
-    "api": "https://lotto.api.rayriffy.com/lotto/16112567",
-    "date":"16 NOVEMBER 2567"
-
-  },
-    {
-      "api": "https://lotto.api.rayriffy.com/lotto/01112567",
-      "date": "01 NOVEMBER 2567"
-    },
-    {
-      "api": "https://lotto.api.rayriffy.com/lotto/16102567",
-      "date": "16 OCTOBER 2567"
-    },
-    {
-      "api": "https://lotto.api.rayriffy.com/lotto/01102567",
-      "date": "01 OCTOBER 2567"
-    },
-
-    {
-    "api": "https://lotto.api.rayriffy.com/lotto/16092567",
-    "date":"16 SEPTEMBER 2567"
-
-  },
-    {
-      "api": "https://lotto.api.rayriffy.com/lotto/01092567",
-      "date": "01 SEPTEMBER 2567"
-    },
-    {
-      "api": "https://lotto.api.rayriffy.com/lotto/16082567",
-      "date": "16 AUGUST 2567"
-    },
-    {
-      "api": "https://lotto.api.rayriffy.com/lotto/01082567",
-      "date": "01 AUGUST 2567"
-    },
-    {
-      "api": "https://lotto.api.rayriffy.com/lotto/16072567",
-      "date": "16 JULY 2567"
     }
+    
 
   ]
 }
