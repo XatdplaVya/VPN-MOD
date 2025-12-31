@@ -1,0 +1,916 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChatGPT Educator Document Generator</title>
+    <style>
+        :root {
+            --primary: #10a37f; /* OpenAI Green-ish */
+            --primary-hover: #0d8a6c;
+            --bg: #f4f4f9;
+            --text: #333;
+            --border: #ddd;
+            --white: #ffffff;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            min-height: 100vh;
+        }
+
+        .container {
+            background: var(--white);
+            width: 100%;
+            max-width: 950px;
+            border-radius: 12px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+        }
+
+        /* Header */
+        .header {
+            background-color: var(--primary);
+            color: white;
+            padding: 20px 30px;
+            text-align: center;
+        }
+
+        .header h1 {
+            margin: 0;
+            font-size: 1.5rem;
+            font-weight: 600;
+        }
+
+        .header p {
+            margin: 5px 0 0;
+            opacity: 0.9;
+            font-size: 0.9rem;
+        }
+
+        /* Content Layout */
+        .content {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .input-section {
+            flex: 0 0 350px;
+            padding: 30px;
+            border-right: 1px solid #eee;
+            background-color: #fdfdfd;
+        }
+
+        .preview-section {
+            flex: 1;
+            padding: 30px;
+            background-color: #fafafa;
+            min-width: 300px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        /* Form Elements */
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 6px;
+            font-weight: 600;
+            font-size: 0.9rem;
+            color: #444;
+        }
+
+        input[type="text"], 
+        textarea,
+        select {
+            width: 100%;
+            padding: 10px 12px;
+            border: 1px solid var(--border);
+            border-radius: 6px;
+            font-size: 1rem;
+            box-sizing: border-box;
+            transition: border-color 0.2s;
+            background-color: white;
+        }
+
+        input[type="text"]:focus, 
+        textarea:focus,
+        select:focus {
+            outline: none;
+            border-color: var(--primary);
+            box-shadow: 0 0 0 3px rgba(16, 163, 127, 0.1);
+        }
+
+        /* File Input Styling */
+        input[type="file"] {
+            padding: 6px;
+            background: white;
+            font-size: 0.9rem;
+        }
+
+        textarea {
+            resize: vertical;
+            min-height: 100px;
+        }
+
+        .hint {
+            font-size: 0.8rem;
+            color: #666;
+            margin-top: 4px;
+        }
+        
+        .status-badge {
+            display: inline-block;
+            background-color: #e8f5e9;
+            color: #2e7d32;
+            padding: 4px 8px;
+            border-radius: 4px;
+            font-size: 0.8rem;
+            font-weight: bold;
+            margin-top: 5px;
+            border: 1px solid #c8e6c9;
+        }
+
+        /* Preview Area - Designed to look like a document */
+        .preview-box {
+            background: white;
+            border: 1px solid #e0e0e0;
+            border-radius: 2px;
+            padding: 50px; /* More padding for letter feel */
+            flex-grow: 1;
+            font-family: "Times New Roman", Times, serif; /* Serif for document feel */
+            font-size: 12pt;
+            color: #000;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+            margin-bottom: 20px;
+            overflow-y: auto;
+            line-height: 1.5;
+        }
+
+        /* --- DOC TYPE STYLES --- */
+
+        /* Memo Styles */
+        .memo-header {
+            border-bottom: 2px solid #000;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+        .memo-title {
+            text-align: center;
+            font-size: 16pt;
+            font-weight: bold;
+            margin-bottom: 20px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        .memo-field { margin-bottom: 8px; }
+        .memo-label { font-weight: bold; display: inline-block; width: 60px; }
+
+        /* Letter Styles */
+        .letter-header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        .logo-container {
+            text-align: center;
+            margin-bottom: 15px;
+        }
+        .logo-placeholder-box {
+            width: 80px;
+            height: 80px;
+            background-color: #f8f9fa;
+            border: 2px dashed #cbd5e0;
+            border-radius: 50%;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #a0aec0;
+            font-size: 10px;
+            text-transform: uppercase;
+        }
+        .school-name-header {
+            font-size: 18pt;
+            font-weight: bold;
+            color: #2c3e50;
+            margin-bottom: 5px;
+        }
+        .school-address-header {
+            font-size: 10pt;
+            color: #555;
+            font-style: italic;
+        }
+        /* Spacing adjustments */
+        .letter-date { margin-bottom: 30px; } 
+        .letter-recipient { margin-bottom: 20px; }
+        .footer-block { margin-top: 40px; }
+        .footer-block p { margin: 5px 0; }
+
+        /* Pay Stub Styles */
+        .paystub-container {
+            font-family: Arial, sans-serif;
+            border: 1px solid #ccc;
+            padding: 40px; /* Increased padding for official look */
+            background: white;
+        }
+        .paystub-header {
+            display: flex;
+            justify-content: space-between;
+            border-bottom: 2px solid #333;
+            padding-bottom: 15px;
+            margin-bottom: 25px;
+        }
+        .paystub-title { font-size: 22px; font-weight: bold; text-transform: uppercase; color: #2c3e50; }
+        .paystub-table { width: 100%; border-collapse: collapse; margin-bottom: 25px; font-size: 11pt; }
+        .paystub-table th, .paystub-table td { border: 1px solid #ddd; padding: 10px; text-align: left; }
+        .paystub-table th { background-color: #f8f9fa; font-weight: bold; color: #444; }
+        .paystub-total { 
+            text-align: right; 
+            font-weight: bold; 
+            font-size: 1.2em; 
+            border-top: 2px solid #333;
+            padding-top: 10px;
+            margin-top: 10px;
+        }
+
+        /* ID Card Styles */
+        .id-card-wrapper {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+        .id-card {
+            width: 300px;
+            height: 190px;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            background: linear-gradient(135deg, #ffffff 0%, #f0f2f5 100%);
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            display: flex;
+            overflow: hidden;
+            font-family: Arial, sans-serif;
+            position: relative;
+        }
+        .id-left {
+            width: 100px;
+            background-color: var(--primary);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+        .id-photo {
+            width: 80px;
+            height: 80px;
+            background-color: #fff;
+            border-radius: 50%;
+            overflow: hidden;
+            border: 3px solid white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #ccc;
+            font-size: 10px;
+        }
+        .id-right {
+            flex: 1;
+            padding: 15px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        .id-school { font-size: 14px; font-weight: bold; color: #333; margin-bottom: 10px; line-height: 1.2; }
+        .id-name { font-size: 16px; font-weight: bold; color: #000; margin-bottom: 5px; }
+        .id-role { font-size: 12px; color: #666; text-transform: uppercase; letter-spacing: 1px; }
+        .id-year { 
+            position: absolute; bottom: 10px; right: 15px; 
+            font-size: 14px; font-weight: bold; color: var(--primary); 
+            border: 1px solid var(--primary); padding: 2px 6px; border-radius: 4px;
+        }
+
+        .preview-label {
+            font-weight: bold;
+            margin-bottom: 15px;
+            color: #555;
+            display: flex;
+            justify-content: space-between; /* Keeps aligned left if only one item */
+            align-items: center;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            border-bottom: 1px solid #eee;
+            padding-bottom: 10px;
+        }
+
+        /* Buttons */
+        .btn-group {
+            display: flex;
+            gap: 10px;
+        }
+
+        .btn {
+            background-color: var(--primary);
+            color: white;
+            border: none;
+            padding: 12px 20px;
+            border-radius: 6px;
+            font-size: 0.95rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: background-color 0.2s, transform 0.1s;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            flex: 1;
+        }
+
+        .btn:hover { background-color: var(--primary-hover); }
+        .btn:active { transform: scale(0.98); }
+
+        .btn-secondary { background-color: #6c757d; }
+        .btn-secondary:hover { background-color: #5a6268; }
+        
+        .btn-pdf { background-color: #dc3545; }
+        .btn-pdf:hover { background-color: #c82333; }
+
+        .btn-random {
+            background-color: #f0ad4e;
+            color: white;
+            margin-bottom: 20px;
+            width: 100%;
+        }
+        .btn-random:hover { background-color: #ec971f; }
+
+        .btn-sm {
+            width: auto; 
+            margin: 0; 
+            padding: 4px 12px; 
+            font-size: 0.85rem;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .content { flex-direction: column; }
+            .input-section {
+                flex: none;
+                border-right: none;
+                border-bottom: 1px solid #eee;
+            }
+            .container {
+                margin: 0;
+                border-radius: 0;
+                height: auto;
+                min-height: 100vh;
+            }
+            body { padding: 0; }
+        }
+
+        /* PRINT STYLES (Optimized for PDF Export) */
+        @media print {
+            @page {
+                margin: 0.5in; 
+                size: auto;
+            }
+            body { 
+                background-color: white; 
+                padding: 0; 
+                margin: 0; 
+                display: block; 
+            }
+            .container { 
+                box-shadow: none; 
+                width: 100%; 
+                max-width: 100%; 
+                margin: 0; 
+                display: block;
+            }
+            
+            /* Hide UI Elements */
+            .header, 
+            .input-section, 
+            .preview-label, 
+            .btn-group, 
+            #toast,
+            .btn-random { 
+                display: none !important; 
+            }
+            
+            .content { display: block; }
+            .preview-section { padding: 0; background-color: white; display: block; }
+            .preview-box { 
+                border: none; 
+                box-shadow: none; 
+                padding: 0; 
+                margin: 0; 
+                width: 100%; 
+                overflow: visible; 
+            }
+            
+            /* specific fix for Paystub background colors in print */
+            .paystub-table th { background-color: #f2f2f2 !important; -webkit-print-color-adjust: exact; }
+            .id-card { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+            .id-left { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+            
+            * { color: black !important; }
+            .id-year { color: #10a37f !important; } /* Keep ID color */
+        }
+
+        /* Notification Toast */
+        #toast {
+            visibility: hidden;
+            min-width: 250px;
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            border-radius: 4px;
+            padding: 16px;
+            position: fixed;
+            z-index: 100;
+            bottom: 30px;
+            left: 50%;
+            transform: translateX(-50%);
+            font-size: 17px;
+        }
+        #toast.show {
+            visibility: visible;
+            -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+            animation: fadein 0.5s, fadeout 0.5s 2.5s;
+        }
+        @keyframes fadein { from {bottom: 0; opacity: 0;} to {bottom: 30px; opacity: 1;} }
+        @keyframes fadeout { from {bottom: 30px; opacity: 1;} to {bottom: 0; opacity: 0;} }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="header">
+        <h1>Educator Document Generator</h1>
+        <p>Create Official Documents for ChatGPT Access & Verification</p>
+    </div>
+
+    <div class="content">
+        <!-- Input Section -->
+        <div class="input-section">
+            
+            <div class="form-group">
+                <label for="docType" style="color: var(--primary);">Document Type</label>
+                <select id="docType" onchange="toggleFields()">
+                    <option value="whitelist">Request IT Whitelisting (Internal)</option>
+                    <option value="verification" selected>Official Letter (Accepted)</option>
+                    <option value="offer">Signed Job Offer Letter (Accepted)</option>
+                    <option value="paystub">Pay Slip / Pay Stub (Accepted)</option>
+                    <option value="idcard">Teacher ID Card (Accepted)</option>
+                </select>
+                <div class="status-badge" id="docBadge">Accepted for Verification</div>
+            </div>
+
+            <button class="btn btn-random" onclick="randomizeData()">
+                🎲 Auto-Fill Random Data
+            </button>
+
+            <!-- Dynamic File Upload Label -->
+            <div class="form-group" id="logoGroup" style="display:none;">
+                <label id="fileInputLabel" for="logoUpload">School Logo (Optional)</label>
+                <input type="file" id="logoUpload" accept="image/*" onchange="handleLogoUpload(this)">
+                <div class="hint" id="fileInputHint">Upload png/jpg for authenticity.</div>
+            </div>
+
+            <div class="form-group">
+                <label for="schoolName">School/Institution Name</label>
+                <input type="text" id="schoolName" placeholder="e.g. Lincoln High School" oninput="updatePreview()">
+            </div>
+
+            <div class="form-group" id="addressGroup">
+                <label for="schoolAddress">School Address</label>
+                <input type="text" id="schoolAddress" placeholder="e.g. 123 Education Lane, Springfield, IL" oninput="updatePreview()">
+            </div>
+
+            <div class="form-group" id="recipientGroup">
+                <label id="recipientLabel" for="recipientName">Issuing Office / Administrator</label>
+                <input type="text" id="recipientName" placeholder="e.g. Office of the Registrar" oninput="updatePreview()">
+            </div>
+
+            <div class="form-group">
+                <label for="senderName">Teacher Name (You)</label>
+                <input type="text" id="senderName" placeholder="e.g. Jane Doe" oninput="updatePreview()">
+            </div>
+
+            <div class="form-group">
+                <label for="senderTitle">Title / Grade Level</label>
+                <input type="text" id="senderTitle" placeholder="e.g. 10th Grade Biology Teacher" oninput="updatePreview()">
+            </div>
+
+            <div class="form-group" id="useCaseGroup" style="display:none;">
+                <label for="useCase">Specific Use Case</label>
+                <textarea id="useCase" placeholder="e.g. lesson planning, differentiating curriculum..." oninput="updatePreview()"></textarea>
+            </div>
+            
+            <button class="btn btn-secondary btn-sm" onclick="resetForm()" style="background-color: #eee; color: #333; width: 100%;">Clear Form</button>
+        </div>
+
+        <!-- Preview Section -->
+        <div class="preview-section">
+            <div class="preview-label">
+                <span>Document Preview</span>
+                <!-- Randomize button removed from here -->
+            </div>
+            
+            <div class="preview-box" id="emailPreview">
+                <!-- Content will be injected here via JS -->
+            </div>
+
+            <div class="btn-group">
+                <button class="btn btn-pdf" onclick="window.print()">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>
+                    Export to PDF
+                </button>
+                <button class="btn" onclick="copyToClipboard()">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2-2v1"></path></svg>
+                    Copy Text
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="toast">Text copied to clipboard!</div>
+
+<script>
+    // U.S. K-12 Specific Data
+    const schools = ["Roosevelt High School", "Fairfax County Public Schools", "Lincoln Elementary School", "Washington Middle School", "Pleasant Valley School District", "Northside Charter High School"];
+    const addresses = ["10700 Page Avenue, Fairfax, VA 22030", "4029 28th Ave S, Minneapolis, MN 55406", "1234 School House Road, Austin, TX 78701", "500 N Main St, Springfield, MA 01104"];
+    const directors = ["Dr. Emily Carter", "Mr. Robert Chen", "Ms. Sarah O'Connor", "Superintendent Michael Johnson"];
+    const offices = ["Office of Human Resources", "Office of the Superintendent", "Department of Personnel", "Principal's Office"];
+    const senders = ["Jessica Williams", "David Martinez", "Jennifer Smith", "Christopher Brown", "Amanda Jones"];
+    const titles = ["11th Grade History Teacher", "K-12 Technology Specialist", "Special Education Teacher", "AP Chemistry Instructor"];
+    const useCases = ["differentiating reading passages", "creating quizzes aligned with State Standards", "drafting IEP goals", "generating substitute plans"];
+
+    let schoolLogoData = null;
+    
+    // GLOBAL STATE for Dates (Prevents spamming/changing on every keystroke)
+    let globalPayDate = "";
+    let globalPayPeriod = "";
+    let globalCurrentDate = "";
+
+    function generateRealisticDates() {
+        const today = new Date();
+        
+        // 1. Current Date (For Letters) - Standard Format
+        globalCurrentDate = today.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' });
+
+        // 2. Pay Stub Dates (SheerID Logic)
+        // Find a Friday within the last 14-45 days (Safe zone for 90-day requirement)
+        const randomDaysAgo = Math.floor(Math.random() * 20) + 10; 
+        const payDateObj = new Date();
+        payDateObj.setDate(today.getDate() - randomDaysAgo);
+        
+        // Adjust to nearest Friday
+        while(payDateObj.getDay() !== 5) {
+             payDateObj.setDate(payDateObj.getDate() - 1);
+        }
+
+        // Calculate Pay Period (Ends 6 days before check, 14 day cycle)
+        const payEndObj = new Date(payDateObj);
+        payEndObj.setDate(payDateObj.getDate() - 6); 
+        
+        const payStartObj = new Date(payEndObj);
+        payStartObj.setDate(payEndObj.getDate() - 13); 
+
+        // Format: MM/DD/YYYY (Standard for Pay Stubs)
+        const dateOptions = { year: 'numeric', month: '2-digit', day: '2-digit' };
+        globalPayDate = payDateObj.toLocaleDateString('en-US', dateOptions);
+        globalPayPeriod = `${payStartObj.toLocaleDateString('en-US', dateOptions)} - ${payEndObj.toLocaleDateString('en-US', dateOptions)}`;
+    }
+
+    function getRandom(arr) { return arr[Math.floor(Math.random() * arr.length)]; }
+
+    function handleLogoUpload(input) {
+        if (input.files && input.files[0]) {
+            const reader = new FileReader();
+            reader.onload = function(e) {
+                schoolLogoData = e.target.result;
+                updatePreview();
+            }
+            reader.readAsDataURL(input.files[0]);
+        }
+    }
+
+    function toggleFields() {
+        const docType = document.getElementById('docType').value;
+        
+        // Groups
+        const useCaseGroup = document.getElementById('useCaseGroup');
+        const addressGroup = document.getElementById('addressGroup');
+        const recipientGroup = document.getElementById('recipientGroup');
+        const logoGroup = document.getElementById('logoGroup');
+        
+        // Labels
+        const recipientLabel = document.getElementById('recipientLabel');
+        const docBadge = document.getElementById('docBadge');
+        const fileInputLabel = document.getElementById('fileInputLabel');
+        const fileInputHint = document.getElementById('fileInputHint');
+        
+        // Reset visibility
+        useCaseGroup.style.display = 'none';
+        addressGroup.style.display = 'block';
+        recipientGroup.style.display = 'block';
+        logoGroup.style.display = 'block';
+        
+        fileInputLabel.innerText = "School Logo (Optional)";
+        fileInputHint.innerText = "Upload png/jpg for authenticity.";
+
+        if (docType === 'whitelist') {
+            useCaseGroup.style.display = 'block';
+            addressGroup.style.display = 'none';
+            logoGroup.style.display = 'none';
+            recipientLabel.textContent = "To (IT Director / Principal)";
+            docBadge.textContent = "Internal Proposal";
+            docBadge.style.backgroundColor = "#e3f2fd";
+            docBadge.style.color = "#1565c0";
+        } else if (docType === 'paystub') {
+            recipientGroup.style.display = 'none'; // No recipient for paystub
+            logoGroup.style.display = 'none'; // Standard paystubs usually just text, or simple
+            docBadge.textContent = "Accepted: Pay Slip (90 Days)";
+            docBadge.style.backgroundColor = "#fff3e0";
+            docBadge.style.color = "#e65100";
+        } else if (docType === 'idcard') {
+            recipientGroup.style.display = 'none';
+            addressGroup.style.display = 'none';
+            fileInputLabel.innerText = "Your Photo (Optional)";
+            fileInputHint.innerText = "Upload a headshot for your ID.";
+            docBadge.textContent = "Accepted: Teacher ID";
+            docBadge.style.backgroundColor = "#fff3e0";
+            docBadge.style.color = "#e65100";
+        } else {
+            // Verification / Offer
+            recipientLabel.textContent = "Issuing Office / Administrator";
+            docBadge.textContent = "Accepted: Official Letter";
+            docBadge.style.backgroundColor = "#e8f5e9";
+            docBadge.style.color = "#2e7d32";
+        }
+        updatePreview();
+    }
+
+    function randomizeData() {
+        // Update dates only when Randomize is clicked
+        generateRealisticDates();
+
+        const docType = document.getElementById('docType').value;
+        document.getElementById('schoolName').value = getRandom(schools);
+        document.getElementById('senderName').value = getRandom(senders);
+        document.getElementById('senderTitle').value = getRandom(titles);
+        document.getElementById('schoolAddress').value = getRandom(addresses);
+        
+        if (docType === 'whitelist') {
+            document.getElementById('recipientName').value = getRandom(directors);
+            document.getElementById('useCase').value = getRandom(useCases);
+        } else {
+            document.getElementById('recipientName').value = getRandom(offices);
+        }
+        updatePreview();
+    }
+
+    function getCommonData() {
+        const docType = document.getElementById('docType').value;
+        const recipient = document.getElementById('recipientName').value || 'Office of Human Resources';
+        const sender = document.getElementById('senderName').value || '[Teacher Name]';
+        const title = document.getElementById('senderTitle').value || '[Title]';
+        const school = document.getElementById('schoolName').value || '[School Name]'; 
+        const address = document.getElementById('schoolAddress').value || '[School Address]'; 
+        const useCase = document.getElementById('useCase').value || '[specific use case]';
+        
+        // Use stable global dates
+        return { 
+            docType, recipient, sender, title, school, address, useCase, 
+            currentDate: globalCurrentDate, 
+            payPeriod: globalPayPeriod,
+            payDate: globalPayDate
+        };
+    }
+
+    function updatePreview() {
+        const data = getCommonData();
+        let htmlContent = '';
+        
+        // Logo Logic (Handles both School Logo and ID Photo based on context)
+        let imgHtml = '';
+        if (schoolLogoData) {
+            if (data.docType === 'idcard') {
+                imgHtml = `<img src="${schoolLogoData}" style="width: 100%; height: 100%; object-fit: cover;">`;
+            } else {
+                imgHtml = `<img src="${schoolLogoData}" style="max-width: 120px; max-height: 120px; object-fit: contain;">`;
+            }
+        } else {
+            if (data.docType === 'idcard') {
+                imgHtml = `<div style="font-size:40px;">👤</div>`;
+            } else {
+                imgHtml = `<div class="logo-placeholder-box">[Logo]</div>`;
+            }
+        }
+
+        if (data.docType === 'whitelist') {
+            // ... (Whitelist Template) ...
+             htmlContent = `
+                <div class="memo-title">Memorandum</div>
+                <div class="memo-header">
+                    <div class="memo-field"><span class="memo-label">To:</span> ${data.recipient}</div>
+                    <div class="memo-field"><span class="memo-label">From:</span> ${data.sender}</div>
+                    <div class="memo-field"><span class="memo-label">Date:</span> ${data.currentDate}</div>
+                    <div class="memo-field"><span class="memo-label">Subject:</span> Request to unblock ChatGPT for official K-12 Educator Pilot</div>
+                </div>
+                <div class="memo-body">
+                    <p>Dear ${data.recipient},</p>
+                    <p>I am writing to request that our district whitelist the domain <strong>chatgpt.com</strong> and <strong>openai.com</strong> for faculty use.</p>
+                    <p>OpenAI has recently launched "ChatGPT for Teachers", a specific tier designed for U.S. K-12 educators. Unlike the public version of ChatGPT, this educator tier is FERPA-compliant and does not use data for training.</p>
+                    <p>I have successfully verified my status as an educator using my school email address. To utilize this tool for ${data.useCase}, I need access to the platform via our school network.</p>
+                    <br><p>Sincerely,</p><br>
+                    <p>${data.sender}<br>${data.title}<br>${data.school}</p>
+                </div>`;
+        } else if (data.docType === 'paystub') {
+            // PAY STUB TEMPLATE
+            htmlContent = `
+                <div class="paystub-container">
+                    <div class="paystub-header">
+                        <div>
+                            <div style="font-weight:bold; font-size:1.4em; margin-bottom:5px;">${data.school}</div>
+                            <div style="color:#555; font-size:0.95em;">${data.address}</div>
+                        </div>
+                        <div style="text-align:right;">
+                            <div class="paystub-title">Earnings Statement</div>
+                            <div style="margin-top:5px;"><strong>Pay Date:</strong> ${data.payDate}</div>
+                        </div>
+                    </div>
+                    
+                    <div style="margin-bottom: 25px; display: flex; justify-content: space-between; background-color: #f8f9fa; padding: 15px; border: 1px solid #eee;">
+                        <div><strong>Employee Name:</strong><br>${data.sender}</div>
+                        <div><strong>Job Title:</strong><br>${data.title}</div>
+                        <div style="text-align:right;"><strong>Pay Period:</strong><br>${data.payPeriod}</div>
+                    </div>
+
+                    <table class="paystub-table">
+                        <thead>
+                            <tr>
+                                <th>Earnings Description</th>
+                                <th>Rate</th>
+                                <th>Hours/Units</th>
+                                <th>Current Amount</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Regular Salary</td>
+                                <td>-</td>
+                                <td>1.00</td>
+                                <td>$2,450.00</td>
+                            </tr>
+                            <tr>
+                                <td>Stipend / Supplement</td>
+                                <td>-</td>
+                                <td>-</td>
+                                <td>$150.00</td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                    <table class="paystub-table">
+                        <thead>
+                            <tr>
+                                <th>Taxes & Deductions</th>
+                                <th>Current Amount</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Federal Withholding</td>
+                                <td>$320.00</td>
+                            </tr>
+                            <tr>
+                                <td>State Withholding</td>
+                                <td>$110.50</td>
+                            </tr>
+                            <tr>
+                                <td>Social Security / Medicare</td>
+                                <td>$185.00</td>
+                            </tr>
+                            <tr>
+                                <td>Health Insurance Premium</td>
+                                <td>$120.00</td>
+                            </tr>
+                            <tr>
+                                <td>Retirement Contribution</td>
+                                <td>$150.00</td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                    <div class="paystub-total">
+                        Net Pay: $1,714.50
+                    </div>
+                </div>
+            `;
+
+        } else if (data.docType === 'idcard') {
+            // TEACHER ID CARD TEMPLATE
+            htmlContent = `
+                <div class="id-card-wrapper">
+                    <div class="id-card">
+                        <div class="id-left">
+                            <div class="id-photo">${imgHtml}</div>
+                        </div>
+                        <div class="id-right">
+                            <div class="id-school">${data.school}</div>
+                            <div class="id-name">${data.sender}</div>
+                            <div class="id-role">FACULTY / STAFF</div>
+                            <div style="font-size:10px; color:#999; margin-top:5px;">ID: 8824-9921</div>
+                            <div class="id-year">2025-2026</div>
+                        </div>
+                    </div>
+                </div>
+                <div style="text-align:center; color:#666; margin-top:20px; font-size:0.9em;">
+                    (Save as PDF/Image to upload)
+                </div>
+            `;
+
+        } else {
+            // VERIFICATION / OFFER LETTER TEMPLATE
+            const titleText = data.docType === 'offer' ? "Offer of Employment" : "Verification of Employment";
+            
+            let bodyContent = "";
+            if(data.docType === 'offer') {
+                 bodyContent = `<p>Dear ${data.sender},</p>
+                    <p>We are pleased to offer you the position of <strong>${data.title}</strong> at <strong>${data.school}</strong>.</p>
+                    <p>This letter confirms your full-time employment status effective immediately for the current academic year.</p>
+                    <p>Please sign and return the enclosed copy of this letter.</p>`;
+            } else {
+                bodyContent = `<p>To Whom It May Concern,</p>
+                    <p>This letter serves to confirm that <strong>${data.sender}</strong> is currently employed at <strong>${data.school}</strong> as a <strong>${data.title}</strong> for the current academic year.</p>
+                    <p>1. Name: ${data.sender}<br>2. School: ${data.school}<br>3. Date: ${data.currentDate}</p>
+                    <p>If you require any further information regarding this employee's status, please contact our administrative office.</p>`;
+            }
+
+            htmlContent = `
+                <div class="letter-header">
+                    <div class="logo-container">${imgHtml}</div>
+                    <div class="school-name-header">${data.school}</div>
+                    <div class="school-address-header">${data.address}</div>
+                </div>
+                
+                <div class="letter-body">
+                    ${bodyContent}
+                    <div class="footer-block">
+                        <br><br>
+                        <p><strong>Sincerely,</strong></p>
+                        <p>${data.recipient}</p>
+                        <p><strong>${data.school}</strong></p>
+                        <p><strong>Date Issued:</strong> ${data.currentDate}</p>
+                    </div>
+                </div>
+            `;
+        }
+
+        document.getElementById('emailPreview').innerHTML = htmlContent;
+    }
+
+    function copyToClipboard() {
+        const x = document.getElementById("emailPreview").innerText;
+        navigator.clipboard.writeText(x).then(() => showToast());
+    }
+
+    function showToast() {
+        const x = document.getElementById("toast");
+        x.className = "show";
+        setTimeout(() => { x.className = x.className.replace("show", ""); }, 3000);
+    }
+
+    function resetForm() {
+        document.getElementById('schoolName').value = '';
+        document.getElementById('recipientName').value = '';
+        document.getElementById('senderName').value = '';
+        document.getElementById('senderTitle').value = '';
+        document.getElementById('useCase').value = '';
+        document.getElementById('schoolAddress').value = '';
+        schoolLogoData = null;
+        document.getElementById('logoUpload').value = "";
+        generateRealisticDates(); // Reset dates on clear
+        updatePreview();
+    }
+
+    // Initialize
+    generateRealisticDates(); // Generate initial dates once on load
+    toggleFields(); 
+</script>
+
+</body>
+</html>
