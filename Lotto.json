@@ -1,7 +1,18 @@
 {
   "lotto":[
 
-  {
+ {
+   "api":"https://lotto.api.rayriffy.com/lotto/17012569",
+   "date":" 17 JANUARY 2569 "
+ },
+    
+    {
+   "api":"https://lotto.api.rayriffy.com/lotto/02012569",
+   "date":" 2 JANUARY 2569 "
+ },
+    
+    
+    {
       "api":"https://lotto.api.rayriffy.com/lotto/16122568",
       "date":" 16 DECEMBER 2568 "
   }, 
